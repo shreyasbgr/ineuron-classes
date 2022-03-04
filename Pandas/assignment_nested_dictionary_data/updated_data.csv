@@ -1,0 +1,1550 @@
+,url,repository_url,labels_url,comments_url,events_url,html_url,id,node_id,number,title,user_login,user_id,user_node_id,user_avatar_url,user_gravatar_id,user_url,user_html_url,user_followers_url,user_following_url,user_gists_url,user_starred_url,user_subscriptions_url,user_organizations_url,user_repos_url,user_events_url,user_received_events_url,user_type,user_site_admin,labels,state,locked,assignee,assignees,milestone,comments,created_at,updated_at,closed_at,author_association,active_lock_reason,draft,pull_request_url,pull_request_html_url,pull_request_diff_url,pull_request_patch_url,pull_request_merged_at,body,reactions_url,reactions_total_count,reactions_+1,reactions_-1,reactions_laugh,reactions_hooray,reactions_confused,reactions_heart,reactions_rocket,reactions_eyes,timeline_url,performed_via_github_app,milestone_url,milestone_html_url,milestone_labels_url,milestone_id,milestone_node_id,milestone_number,milestone_title,milestone_description,milestone_creator,milestone_open_issues,milestone_closed_issues,milestone_state,milestone_created_at,milestone_updated_at,milestone_due_on,milestone_closed_at
+0,https://api.github.com/repos/pandas-dev/pandas/issues/46224,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46224/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46224/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46224/events,https://github.com/pandas-dev/pandas/pull/46224,1159307100,PR_kwDOAA0YD84z8BjM,46224,Build: unpin version of base image of dockered development environment,rendner,414652,MDQ6VXNlcjQxNDY1Mg==,https://avatars.githubusercontent.com/u/414652?v=4,,https://api.github.com/users/rendner,https://github.com/rendner,https://api.github.com/users/rendner/followers,https://api.github.com/users/rendner/following{/other_user},https://api.github.com/users/rendner/gists{/gist_id},https://api.github.com/users/rendner/starred{/owner}{/repo},https://api.github.com/users/rendner/subscriptions,https://api.github.com/users/rendner/orgs,https://api.github.com/users/rendner/repos,https://api.github.com/users/rendner/events{/privacy},https://api.github.com/users/rendner/received_events,User,False,[],open,False,,[],,0,2022-03-04T06:49:06Z,2022-03-04T06:49:06Z,,CONTRIBUTOR,,False,https://api.github.com/repos/pandas-dev/pandas/pulls/46224,https://github.com/pandas-dev/pandas/pull/46224,https://github.com/pandas-dev/pandas/pull/46224.diff,https://github.com/pandas-dev/pandas/pull/46224.patch,,"This PR removes the pinned version for the base image.
+
+The latest version of the base image, `quay.io/condaforge/miniforge3:4.11.0-4` (released Feb 26, 2022),  works again.
+
+The pinned version was needed temporarily because of a misbehaving version of the base image: https://github.com/pandas-dev/pandas/pull/45889#issuecomment-1040827073",https://api.github.com/repos/pandas-dev/pandas/issues/46224/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46224/timeline,,,,,,,,,,,,,,,,,
+1,https://api.github.com/repos/pandas-dev/pandas/issues/46223,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46223/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46223/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46223/events,https://github.com/pandas-dev/pandas/pull/46223,1159221801,PR_kwDOAA0YD84z7wFR,46223,DOC: Fix warnings on underline length (more),NickCrews,10820686,MDQ6VXNlcjEwODIwNjg2,https://avatars.githubusercontent.com/u/10820686?v=4,,https://api.github.com/users/NickCrews,https://github.com/NickCrews,https://api.github.com/users/NickCrews/followers,https://api.github.com/users/NickCrews/following{/other_user},https://api.github.com/users/NickCrews/gists{/gist_id},https://api.github.com/users/NickCrews/starred{/owner}{/repo},https://api.github.com/users/NickCrews/subscriptions,https://api.github.com/users/NickCrews/orgs,https://api.github.com/users/NickCrews/repos,https://api.github.com/users/NickCrews/events{/privacy},https://api.github.com/users/NickCrews/received_events,User,False,[],open,False,,[],,0,2022-03-04T04:11:41Z,2022-03-04T04:11:41Z,,CONTRIBUTOR,,False,https://api.github.com/repos/pandas-dev/pandas/pulls/46223,https://github.com/pandas-dev/pandas/pull/46223,https://github.com/pandas-dev/pandas/pull/46223.diff,https://github.com/pandas-dev/pandas/pull/46223.patch,,"I missed the other instance of the problem in
+https://github.com/pandas-dev/pandas/pull/46215.
+
+- [x] closes #xxxx (Replace xxxx with the Github issue number)
+- [x] [Tests added and passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#writing-tests) if fixing a bug or adding a new feature
+- [x] All [code checks passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#pre-commit).
+- [x] Added an entry in the latest `doc/source/whatsnew/vX.X.X.rst` file if fixing a bug or adding a new feature.
+",https://api.github.com/repos/pandas-dev/pandas/issues/46223/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46223/timeline,,,,,,,,,,,,,,,,,
+2,https://api.github.com/repos/pandas-dev/pandas/issues/46222,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46222/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46222/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46222/events,https://github.com/pandas-dev/pandas/pull/46222,1159216249,PR_kwDOAA0YD84z7u8G,46222,TYP: pd.isna,twoertwein,6618166,MDQ6VXNlcjY2MTgxNjY=,https://avatars.githubusercontent.com/u/6618166?v=4,,https://api.github.com/users/twoertwein,https://github.com/twoertwein,https://api.github.com/users/twoertwein/followers,https://api.github.com/users/twoertwein/following{/other_user},https://api.github.com/users/twoertwein/gists{/gist_id},https://api.github.com/users/twoertwein/starred{/owner}{/repo},https://api.github.com/users/twoertwein/subscriptions,https://api.github.com/users/twoertwein/orgs,https://api.github.com/users/twoertwein/repos,https://api.github.com/users/twoertwein/events{/privacy},https://api.github.com/users/twoertwein/received_events,User,False,"[{'id': 1280988427, 'node_id': 'MDU6TGFiZWwxMjgwOTg4NDI3', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Typing', 'name': 'Typing', 'color': 'ea91a4', 'default': False, 'description': 'type annotations, mypy/pyright type checking'}]",open,False,,[],,0,2022-03-04T04:01:01Z,2022-03-04T04:10:11Z,,CONTRIBUTOR,,False,https://api.github.com/repos/pandas-dev/pandas/pulls/46222,https://github.com/pandas-dev/pandas/pull/46222,https://github.com/pandas-dev/pandas/pull/46222.diff,https://github.com/pandas-dev/pandas/pull/46222.patch,,"Inferred by mypy and pyright:
+```py
+import numpy as np
+import pandas as pd
+
+class A:
+    ...
+
+# bool
+reveal_type(pd.isna(1))
+
+# npt.NDArray[np.bool_]
+reveal_type(pd.isna([]))
+reveal_type(pd.isna(np.zeros(3)))
+reveal_type(pd.isna(pd.DatetimeIndex([None])))
+
+# pd.DataFrame
+reveal_type(pd.isna(pd.DataFrame()))
+
+# pd.Series
+reveal_type(pd.isna(pd.Series()))
+
+# Union of all possible cases
+reveal_type(pd.isna(A())) # should be bool
+```
+",https://api.github.com/repos/pandas-dev/pandas/issues/46222/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46222/timeline,,,,,,,,,,,,,,,,,
+3,https://api.github.com/repos/pandas-dev/pandas/issues/46221,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46221/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46221/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46221/events,https://github.com/pandas-dev/pandas/issues/46221,1159140752,I_kwDOAA0YD85FFxWQ,46221,BUG: read_sql with query doesn't get metadata from the database,mvashishtha,10712109,MDQ6VXNlcjEwNzEyMTA5,https://avatars.githubusercontent.com/u/10712109?v=4,,https://api.github.com/users/mvashishtha,https://github.com/mvashishtha,https://api.github.com/users/mvashishtha/followers,https://api.github.com/users/mvashishtha/following{/other_user},https://api.github.com/users/mvashishtha/gists{/gist_id},https://api.github.com/users/mvashishtha/starred{/owner}{/repo},https://api.github.com/users/mvashishtha/subscriptions,https://api.github.com/users/mvashishtha/orgs,https://api.github.com/users/mvashishtha/repos,https://api.github.com/users/mvashishtha/events{/privacy},https://api.github.com/users/mvashishtha/received_events,User,False,"[{'id': 76811, 'node_id': 'MDU6TGFiZWw3NjgxMQ==', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Bug', 'name': 'Bug', 'color': 'e10c02', 'default': False, 'description': None}, {'id': 1954720290, 'node_id': 'MDU6TGFiZWwxOTU0NzIwMjkw', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Needs%20Triage', 'name': 'Needs Triage', 'color': '0052cc', 'default': False, 'description': 'Issue that has not been reviewed by a pandas team member'}]",open,False,,[],,0,2022-03-04T01:23:39Z,2022-03-04T01:23:39Z,,NONE,,,,,,,,"### Pandas version checks
+
+- [X] I have checked that this issue has not already been reported.
+
+- [X] I have confirmed this bug exists on the [latest version](https://pandas.pydata.org/docs/whatsnew/index.html) of pandas.
+
+- [X] I have confirmed this bug exists on the main branch of pandas.
+
+
+### Reproducible Example
+
+```python
+import pandas as pd
+
+filename = ""/tmp/sqlite_for_modin.db""
+con = ""sqlite:///{}"".format(filename)
+# Create a 1 x 1 dataframe of floats where the only entry is null
+input = pd.DataFrame([[None]]).astype(""float"")
+# The only dtype is float64
+print(f""input dtypes: {input.dtypes}"")
+
+# Write the dataframe to the database in the temporary file
+input.to_sql(""test_1x1_null"", con, index=False, if_exists=""replace"")
+
+# Read the whole table with a query
+output = pd.read_sql(""SELECT * FROM test_1x1_null"", con)
+# The only dtype is object
+print(f""output dtypes: {output.dtypes}"")
+```
+
+
+### Issue Description
+
+I want to use `read_sql` to get the metadata of a SQL table. In this example, I write a dataframe of floats, with all elements null, to a table. When I run the `sqlite3` CLI and get the schema of the table with
+
+```
+.open /tmp/sqlite_for_modin.db;
+pragma table_info('test_1x1_null');
+```
+
+I get 
+
+```
+0|0|FLOAT|0||0
+```
+
+but when I read the first row from the table with pandas, my metadata says nothing about floats. Instead of the original float64 types:
+
+```
+0   float64
+dtype: object
+```
+I get:
+
+```
+0   object
+dtype: object
+```
+
+I believe that pandas is trying to infer dtypes from the data it reads rather than using the query result's schema, which hopefully it should be able to access using the query and the connection. Note that `read_sql_table` can infer types even when the whole table is null, e.g. if use `read_sql_table` instead of `read_sql` with a query in the example:
+
+```python
+import pandas as pd
+
+filename = ""/tmp/sqlite_for_modin.db""
+con = ""sqlite:///{}"".format(filename)
+# Create a 1 x 1 dataframe of floats where the only entry is null
+input = pd.DataFrame([[None]]).astype(""float"")
+# The only dtype is float64
+print(f""input dtypes: {input.dtypes}"")
+
+# Write the dataframe to the database in the temporary file
+input.to_sql(""test_1x1_null"", con, index=False, if_exists=""replace"")
+
+# Read the whole table with read_sql_table
+output = pd.read_sql(""test_1x1_null"", con)
+# The only dtype is object
+print(f""output dtypes: {output.dtypes}"")
+```
+
+I get the correct dtypes.
+
+### Expected Behavior
+
+In the example above, the result of `read_sql` should have dtypes `float64`. I want pandas to infer dtypes using the schema from the database rather than trying to infer them on its own. 
+
+### Installed Versions
+
+<details>
+
+
+INSTALLED VERSIONS
+------------------
+commit           : 06d230151e6f18fdb8139d09abf539867a8cd481
+python           : 3.9.10.final.0
+python-bits      : 64
+OS               : Darwin
+OS-release       : 21.3.0
+Version          : Darwin Kernel Version 21.3.0: Wed Jan  5 21:37:58 PST 2022; root:xnu-8019.80.24~20/RELEASE_X86_64
+machine          : x86_64
+processor        : i386
+byteorder        : little
+LC_ALL           : None
+LANG             : en_US.UTF-8
+LOCALE           : en_US.UTF-8
+
+pandas           : 1.4.1
+numpy            : 1.22.1
+pytz             : 2021.3
+dateutil         : 2.8.2
+pip              : 22.0.3
+setuptools       : 60.8.2
+Cython           : 0.29.27
+pytest           : 7.0.0
+hypothesis       : None
+sphinx           : 4.4.0
+blosc            : None
+feather          : None
+xlsxwriter       : None
+lxml.etree       : 4.8.0
+html5lib         : None
+pymysql          : None
+psycopg2         : 2.9.3
+jinja2           : 3.0.3
+IPython          : 8.0.0
+pandas_datareader: None
+bs4              : None
+bottleneck       : None
+fastparquet      : None
+fsspec           : 2022.02.0
+gcsfs            : None
+matplotlib       : 3.5.1
+numba            : None
+numexpr          : 2.8.1
+odfpy            : None
+openpyxl         : 3.0.9
+pandas_gbq       : 0.16.0
+pyarrow          : 6.0.1
+pyreadstat       : None
+pyxlsb           : None
+s3fs             : 2022.02.0+2.g61f99be
+scipy            : 1.7.3
+sqlalchemy       : 1.4.31
+tables           : 3.7.0
+tabulate         : None
+xarray           : 0.20.2
+xlrd             : 2.0.1
+xlwt             : None
+zstandard        : None
+
+
+</details>
+",https://api.github.com/repos/pandas-dev/pandas/issues/46221/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46221/timeline,,,,,,,,,,,,,,,,,
+4,https://api.github.com/repos/pandas-dev/pandas/issues/46220,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46220/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46220/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46220/events,https://github.com/pandas-dev/pandas/pull/46220,1159109717,PR_kwDOAA0YD84z7Zgl,46220,BUG: GroupBy.cummin altering nullable arrays inplace,jbrockmendel,8078968,MDQ6VXNlcjgwNzg5Njg=,https://avatars.githubusercontent.com/u/8078968?v=4,,https://api.github.com/users/jbrockmendel,https://github.com/jbrockmendel,https://api.github.com/users/jbrockmendel/followers,https://api.github.com/users/jbrockmendel/following{/other_user},https://api.github.com/users/jbrockmendel/gists{/gist_id},https://api.github.com/users/jbrockmendel/starred{/owner}{/repo},https://api.github.com/users/jbrockmendel/subscriptions,https://api.github.com/users/jbrockmendel/orgs,https://api.github.com/users/jbrockmendel/repos,https://api.github.com/users/jbrockmendel/events{/privacy},https://api.github.com/users/jbrockmendel/received_events,User,False,[],open,False,,[],,0,2022-03-04T00:31:55Z,2022-03-04T00:31:55Z,,MEMBER,,False,https://api.github.com/repos/pandas-dev/pandas/pulls/46220,https://github.com/pandas-dev/pandas/pull/46220,https://github.com/pandas-dev/pandas/pull/46220.diff,https://github.com/pandas-dev/pandas/pull/46220.patch,,"- [ ] closes #xxxx (Replace xxxx with the Github issue number)
+- [x] [Tests added and passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#writing-tests) if fixing a bug or adding a new feature
+- [x] All [code checks passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#pre-commit).
+- [ ] Added an entry in the latest `doc/source/whatsnew/vX.X.X.rst` file if fixing a bug or adding a new feature.
+",https://api.github.com/repos/pandas-dev/pandas/issues/46220/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46220/timeline,,,,,,,,,,,,,,,,,
+5,https://api.github.com/repos/pandas-dev/pandas/issues/46219,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46219/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46219/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46219/events,https://github.com/pandas-dev/pandas/pull/46219,1159086113,PR_kwDOAA0YD84z7UgM,46219,Build: configure timezone for dockered development environment,rendner,414652,MDQ6VXNlcjQxNDY1Mg==,https://avatars.githubusercontent.com/u/414652?v=4,,https://api.github.com/users/rendner,https://github.com/rendner,https://api.github.com/users/rendner/followers,https://api.github.com/users/rendner/following{/other_user},https://api.github.com/users/rendner/gists{/gist_id},https://api.github.com/users/rendner/starred{/owner}{/repo},https://api.github.com/users/rendner/subscriptions,https://api.github.com/users/rendner/orgs,https://api.github.com/users/rendner/repos,https://api.github.com/users/rendner/events{/privacy},https://api.github.com/users/rendner/received_events,User,False,[],open,False,,[],,0,2022-03-03T23:51:45Z,2022-03-04T07:01:47Z,,CONTRIBUTOR,,False,https://api.github.com/repos/pandas-dev/pandas/pulls/46219,https://github.com/pandas-dev/pandas/pull/46219,https://github.com/pandas-dev/pandas/pull/46219.diff,https://github.com/pandas-dev/pandas/pull/46219.patch,,"- [x] closes #46217
+- [x] [Tests passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#writing-tests) if fixing a bug or adding a new feature
+- [ ] All [code checks passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#pre-commit).
+- [ ] Added an entry in the latest `doc/source/whatsnew/vX.X.X.rst` file if fixing a bug or adding a new feature.
+
+This PR sets a timezone for the docker image.
+
+After configuring a timezone, the file `./test_fast.sh` runs without crashing workers and failing tests.",https://api.github.com/repos/pandas-dev/pandas/issues/46219/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46219/timeline,,,,,,,,,,,,,,,,,
+6,https://api.github.com/repos/pandas-dev/pandas/issues/46218,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46218/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46218/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46218/events,https://github.com/pandas-dev/pandas/issues/46218,1159078523,I_kwDOAA0YD85FFiJ7,46218,BUG: pd.cut regression starting in version 1.4.0 when operating on datetime,sergiykhan,25179211,MDQ6VXNlcjI1MTc5MjEx,https://avatars.githubusercontent.com/u/25179211?v=4,,https://api.github.com/users/sergiykhan,https://github.com/sergiykhan,https://api.github.com/users/sergiykhan/followers,https://api.github.com/users/sergiykhan/following{/other_user},https://api.github.com/users/sergiykhan/gists{/gist_id},https://api.github.com/users/sergiykhan/starred{/owner}{/repo},https://api.github.com/users/sergiykhan/subscriptions,https://api.github.com/users/sergiykhan/orgs,https://api.github.com/users/sergiykhan/repos,https://api.github.com/users/sergiykhan/events{/privacy},https://api.github.com/users/sergiykhan/received_events,User,False,"[{'id': 76811, 'node_id': 'MDU6TGFiZWw3NjgxMQ==', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Bug', 'name': 'Bug', 'color': 'e10c02', 'default': False, 'description': None}, {'id': 1954720290, 'node_id': 'MDU6TGFiZWwxOTU0NzIwMjkw', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Needs%20Triage', 'name': 'Needs Triage', 'color': '0052cc', 'default': False, 'description': 'Issue that has not been reviewed by a pandas team member'}]",open,False,,[],,0,2022-03-03T23:37:13Z,2022-03-04T02:15:35Z,,NONE,,,,,,,,"### Pandas version checks
+
+- [X] I have checked that this issue has not already been reported.
+
+- [X] I have confirmed this bug exists on the [latest version](https://pandas.pydata.org/docs/whatsnew/index.html) of pandas.
+
+- [X] I have confirmed this bug exists on the main branch of pandas.
+
+
+### Reproducible Example
+
+```python
+pd.cut(
+    pd.Series([pd.Timestamp('2022-02-26')]),
+    bins=pd.interval_range(
+        pd.Timestamp('2022-02-25'),
+        pd.Timestamp('2022-02-27'),
+        freq='1D',
+    )
+).value_counts()
+```
+
+
+### Issue Description
+
+Binning is not correct in Pandas 1.4.x. 
+```
+(2022-02-25, 2022-02-26]    0
+(2022-02-26, 2022-02-27]    0
+```
+
+Note that the same series gets processed correctly, when the `dtype` is not `datetime64[ns]`
+```
+pd.cut(
+    pd.Series(['2022-02-26']),
+    bins=pd.interval_range(
+        pd.Timestamp('2022-02-25'),
+        pd.Timestamp('2022-02-27'),
+        freq='1D',
+    )
+).value_counts()
+```
+
+### Expected Behavior
+
+The expected behavior is
+```
+(2022-02-25, 2022-02-26]    1
+(2022-02-26, 2022-02-27]    0
+```
+
+### Installed Versions
+
+<details>
+
+
+INSTALLED VERSIONS
+------------------
+commit           : 06d230151e6f18fdb8139d09abf539867a8cd481
+python           : 3.8.10.final.0
+python-bits      : 64
+OS               : Linux
+OS-release       : 5.10.60.1-microsoft-standard-WSL2
+Version          : #1 SMP Wed Aug 25 23:20:18 UTC 2021
+machine          : x86_64
+processor        : x86_64
+byteorder        : little
+LC_ALL           : en_US.UTF-8
+LANG             : en_US.UTF-8
+LOCALE           : en_US.UTF-8
+
+pandas           : 1.4.1
+numpy            : 1.22.1
+pytz             : 2021.3
+dateutil         : 2.8.2
+pip              : 22.0.3
+setuptools       : 60.7.1
+Cython           : None
+pytest           : None
+hypothesis       : None
+sphinx           : None
+blosc            : None
+feather          : None
+xlsxwriter       : None
+lxml.etree       : None
+html5lib         : None
+pymysql          : None
+psycopg2         : None
+jinja2           : 3.0.3
+IPython          : 8.0.1
+pandas_datareader: None
+bs4              : None
+bottleneck       : None
+fastparquet      : None
+fsspec           : None
+gcsfs            : None
+matplotlib       : 3.5.1
+numba            : None
+numexpr          : None
+odfpy            : None
+openpyxl         : 3.0.9
+pandas_gbq       : None
+pyarrow          : None
+pyreadstat       : None
+pyxlsb           : None
+s3fs             : None
+scipy            : None
+sqlalchemy       : None
+tables           : None
+tabulate         : None
+xarray           : None
+xlrd             : None
+xlwt             : None
+zstandard        : None
+
+
+</details>
+",https://api.github.com/repos/pandas-dev/pandas/issues/46218/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46218/timeline,,,,,,,,,,,,,,,,,
+7,https://api.github.com/repos/pandas-dev/pandas/issues/46217,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46217/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46217/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46217/events,https://github.com/pandas-dev/pandas/issues/46217,1159074521,I_kwDOAA0YD85FFhLZ,46217,BUG: Failing tests when running `/test_fast.sh` inside the dockered development environment.,rendner,414652,MDQ6VXNlcjQxNDY1Mg==,https://avatars.githubusercontent.com/u/414652?v=4,,https://api.github.com/users/rendner,https://github.com/rendner,https://api.github.com/users/rendner/followers,https://api.github.com/users/rendner/following{/other_user},https://api.github.com/users/rendner/gists{/gist_id},https://api.github.com/users/rendner/starred{/owner}{/repo},https://api.github.com/users/rendner/subscriptions,https://api.github.com/users/rendner/orgs,https://api.github.com/users/rendner/repos,https://api.github.com/users/rendner/events{/privacy},https://api.github.com/users/rendner/received_events,User,False,"[{'id': 76811, 'node_id': 'MDU6TGFiZWw3NjgxMQ==', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Bug', 'name': 'Bug', 'color': 'e10c02', 'default': False, 'description': None}, {'id': 1954720290, 'node_id': 'MDU6TGFiZWwxOTU0NzIwMjkw', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Needs%20Triage', 'name': 'Needs Triage', 'color': '0052cc', 'default': False, 'description': 'Issue that has not been reviewed by a pandas team member'}]",open,False,,[],,0,2022-03-03T23:33:39Z,2022-03-03T23:35:29Z,,CONTRIBUTOR,,,,,,,,"### Pandas version checks
+
+- [X] I have checked that this issue has not already been reported.
+
+- [X] I have confirmed this bug exists on the [latest version](https://pandas.pydata.org/docs/whatsnew/index.html) of pandas.
+
+- [X] I have confirmed this bug exists on the main branch of pandas.
+
+
+### Reproducible Example
+
+Create a development environment using Docker as described in the [documentation](https://pandas.pydata.org/docs/development/contributing_environment.html#creating-an-environment-using-docker)
+
+Start a container and execute `./test_fast.sh`.
+
+### Issue Description
+
+There are some tests which try to read the time from the os. 
+When running the tests inside the docker container you can see that some of the worker just crash:
+
+```
+terminate called after throwing an instance of 'orc::TimezoneError'
+  what():  Can't open /etc/localtime
+Fatal Python error: Aborted
+
+Thread 0x00007fd42e93f700 (most recent call first):
+  File ""/opt/conda/lib/python3.8/concurrent/futures/thread.py"", line 78 in _worker
+  File ""/opt/conda/lib/python3.8/threading.py"", line 870 in run
+  File ""/opt/conda/lib/python3.8/threading.py"", line 932 in _bootstrap_inner
+  File ""/opt/conda/lib/python3.8/threading.py"", line 890 in _bootstrap
+  
+... (some lines removed to shorten output)
+
+[gw0] node down: Not properly terminated
+F
+replacing crashed worker gw0
+```
+```
+____________________________________________________________________ pandas/tests/io/test_orc.py ____________________________________________________________________
+[gw0] linux -- Python 3.8.12 /opt/conda/bin/python
+worker 'gw0' crashed while running 'pandas/tests/io/test_orc.py::test_orc_reader_empty'
+```
+
+
+### Expected Behavior
+
+No worker crashes and related tests don't fail.
+
+### Installed Versions
+
+-",https://api.github.com/repos/pandas-dev/pandas/issues/46217/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46217/timeline,,,,,,,,,,,,,,,,,
+8,https://api.github.com/repos/pandas-dev/pandas/issues/46210,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46210/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46210/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46210/events,https://github.com/pandas-dev/pandas/issues/46210,1158374398,I_kwDOAA0YD85FC2P-,46210,BUG: UserWarning about lacking infer_datetime_format with pd.to_datetime,moojen,18547401,MDQ6VXNlcjE4NTQ3NDAx,https://avatars.githubusercontent.com/u/18547401?v=4,,https://api.github.com/users/moojen,https://github.com/moojen,https://api.github.com/users/moojen/followers,https://api.github.com/users/moojen/following{/other_user},https://api.github.com/users/moojen/gists{/gist_id},https://api.github.com/users/moojen/starred{/owner}{/repo},https://api.github.com/users/moojen/subscriptions,https://api.github.com/users/moojen/orgs,https://api.github.com/users/moojen/repos,https://api.github.com/users/moojen/events{/privacy},https://api.github.com/users/moojen/received_events,User,False,"[{'id': 76811, 'node_id': 'MDU6TGFiZWw3NjgxMQ==', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Bug', 'name': 'Bug', 'color': 'e10c02', 'default': False, 'description': None}, {'id': 1954720290, 'node_id': 'MDU6TGFiZWwxOTU0NzIwMjkw', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Needs%20Triage', 'name': 'Needs Triage', 'color': '0052cc', 'default': False, 'description': 'Issue that has not been reviewed by a pandas team member'}]",open,False,,[],,0,2022-03-03T12:53:26Z,2022-03-03T12:55:02Z,,NONE,,,,,,,,"### Pandas version checks
+
+- [X] I have checked that this issue has not already been reported.
+
+- [X] I have confirmed this bug exists on the [latest version](https://pandas.pydata.org/docs/whatsnew/index.html) of pandas.
+
+- [X] I have confirmed this bug exists on the main branch of pandas.
+
+
+### Reproducible Example
+
+```python
+df['date'] = pd.to_datetime(df['date'], infer_datetime_format=True, utc=True, errors='ignore')
+```
+
+
+### Issue Description
+
+When I run this code, I get the following warning:
+
+""UserWarning: Parsing '15/09/1979' in DD/MM/YYYY format. Provide format or specify infer_datetime_format=True for consistent parsing.""
+
+Which is strange, because I already have set infer_datetime_format=True. 
+
+### Expected Behavior
+
+You would expect no warning at all, since ""infer_datetime_format=True"" is already provided as an argument.
+
+### Installed Versions
+
+<details>
+pymysql : None
+html5lib : None
+lxml.etree : 4.8.0
+xlsxwriter : None
+feather : None
+blosc : None
+sphinx : None
+hypothesis : None
+pytest : 6.2.5
+Cython : None
+setuptools : 58.1.0
+pip : 22.0.3
+dateutil : 2.8.2
+pytz : 2021.3
+numpy : 1.22.2
+pandas : 1.4.1
+</details>
+",https://api.github.com/repos/pandas-dev/pandas/issues/46210/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46210/timeline,,,,,,,,,,,,,,,,,
+9,https://api.github.com/repos/pandas-dev/pandas/issues/46209,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46209/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46209/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46209/events,https://github.com/pandas-dev/pandas/pull/46209,1157875795,PR_kwDOAA0YD84z3TEH,46209,BUG: Fix some cases of groupby(...).transform with dropna=True,rhshadrach,45562402,MDQ6VXNlcjQ1NTYyNDAy,https://avatars.githubusercontent.com/u/45562402?v=4,,https://api.github.com/users/rhshadrach,https://github.com/rhshadrach,https://api.github.com/users/rhshadrach/followers,https://api.github.com/users/rhshadrach/following{/other_user},https://api.github.com/users/rhshadrach/gists{/gist_id},https://api.github.com/users/rhshadrach/starred{/owner}{/repo},https://api.github.com/users/rhshadrach/subscriptions,https://api.github.com/users/rhshadrach/orgs,https://api.github.com/users/rhshadrach/repos,https://api.github.com/users/rhshadrach/events{/privacy},https://api.github.com/users/rhshadrach/received_events,User,False,"[{'id': 76811, 'node_id': 'MDU6TGFiZWw3NjgxMQ==', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Bug', 'name': 'Bug', 'color': 'e10c02', 'default': False, 'description': None}, {'id': 233160, 'node_id': 'MDU6TGFiZWwyMzMxNjA=', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Groupby', 'name': 'Groupby', 'color': '729FCF', 'default': False, 'description': None}, {'id': 697792067, 'node_id': 'MDU6TGFiZWw2OTc3OTIwNjc=', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Apply', 'name': 'Apply', 'color': 'fbca04', 'default': False, 'description': 'Apply, Aggregate, Transform'}]",open,False,,[],,0,2022-03-03T01:48:05Z,2022-03-03T23:34:49Z,,MEMBER,,False,https://api.github.com/repos/pandas-dev/pandas/pulls/46209,https://github.com/pandas-dev/pandas/pull/46209,https://github.com/pandas-dev/pandas/pull/46209.diff,https://github.com/pandas-dev/pandas/pull/46209.patch,,"Part of #17093
+- [x] [Tests added and passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#writing-tests) if fixing a bug or adding a new feature
+- [x] All [code checks passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#pre-commit).
+- [x] Added an entry in the latest `doc/source/whatsnew/vX.X.X.rst` file if fixing a bug or adding a new feature.
+
+The added xfails will pass when other parts of #45839 are merged.",https://api.github.com/repos/pandas-dev/pandas/issues/46209/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46209/timeline,,https://api.github.com/repos/pandas-dev/pandas/milestones/92,https://github.com/pandas-dev/pandas/milestone/92,https://api.github.com/repos/pandas-dev/pandas/milestones/92/labels,7530006.0,MI_kwDOAA0YD84AcuYW,92.0,1.5,,"{'login': 'jreback', 'id': 953992, 'node_id': 'MDQ6VXNlcjk1Mzk5Mg==', 'avatar_url': 'https://avatars.githubusercontent.com/u/953992?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/jreback', 'html_url': 'https://github.com/jreback', 'followers_url': 'https://api.github.com/users/jreback/followers', 'following_url': 'https://api.github.com/users/jreback/following{/other_user}', 'gists_url': 'https://api.github.com/users/jreback/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/jreback/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/jreback/subscriptions', 'organizations_url': 'https://api.github.com/users/jreback/orgs', 'repos_url': 'https://api.github.com/users/jreback/repos', 'events_url': 'https://api.github.com/users/jreback/events{/privacy}', 'received_events_url': 'https://api.github.com/users/jreback/received_events', 'type': 'User', 'site_admin': False}",51.0,436.0,open,2021-12-31T21:51:13Z,2022-03-04T01:54:24Z,2022-06-30T07:00:00Z,
+10,https://api.github.com/repos/pandas-dev/pandas/issues/46207,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46207/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46207/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46207/events,https://github.com/pandas-dev/pandas/pull/46207,1157819010,PR_kwDOAA0YD84z3HeN,46207,REF: Move Categorical logic from Grouping (#46203),NickCrews,10820686,MDQ6VXNlcjEwODIwNjg2,https://avatars.githubusercontent.com/u/10820686?v=4,,https://api.github.com/users/NickCrews,https://github.com/NickCrews,https://api.github.com/users/NickCrews/followers,https://api.github.com/users/NickCrews/following{/other_user},https://api.github.com/users/NickCrews/gists{/gist_id},https://api.github.com/users/NickCrews/starred{/owner}{/repo},https://api.github.com/users/NickCrews/subscriptions,https://api.github.com/users/NickCrews/orgs,https://api.github.com/users/NickCrews/repos,https://api.github.com/users/NickCrews/events{/privacy},https://api.github.com/users/NickCrews/received_events,User,False,[],open,False,,[],,2,2022-03-03T00:04:28Z,2022-03-03T23:24:18Z,,CONTRIBUTOR,,False,https://api.github.com/repos/pandas-dev/pandas/pulls/46207,https://github.com/pandas-dev/pandas/pull/46207,https://github.com/pandas-dev/pandas/pull/46207.diff,https://github.com/pandas-dev/pandas/pull/46207.patch,,"- [x] closes #46203 (Replace xxxx with the Github issue number)
+- [x] [Tests added and passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#writing-tests) if fixing a bug or adding a new feature
+- [x] All [code checks passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#pre-commit).
+- [x] Added an entry in the latest `doc/source/whatsnew/vX.X.X.rst` file if fixing a bug or adding a new feature.
+",https://api.github.com/repos/pandas-dev/pandas/issues/46207/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46207/timeline,,,,,,,,,,,,,,,,,
+11,https://api.github.com/repos/pandas-dev/pandas/issues/46205,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46205/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46205/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46205/events,https://github.com/pandas-dev/pandas/issues/46205,1157652834,I_kwDOAA0YD85FAGFi,46205,DOC: provide detailed information about building the C extensions (development environment),rendner,414652,MDQ6VXNlcjQxNDY1Mg==,https://avatars.githubusercontent.com/u/414652?v=4,,https://api.github.com/users/rendner,https://github.com/rendner,https://api.github.com/users/rendner/followers,https://api.github.com/users/rendner/following{/other_user},https://api.github.com/users/rendner/gists{/gist_id},https://api.github.com/users/rendner/starred{/owner}{/repo},https://api.github.com/users/rendner/subscriptions,https://api.github.com/users/rendner/orgs,https://api.github.com/users/rendner/repos,https://api.github.com/users/rendner/events{/privacy},https://api.github.com/users/rendner/received_events,User,False,"[{'id': 134699, 'node_id': 'MDU6TGFiZWwxMzQ2OTk=', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Docs', 'name': 'Docs', 'color': '3465A4', 'default': False, 'description': None}, {'id': 1954720290, 'node_id': 'MDU6TGFiZWwxOTU0NzIwMjkw', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Needs%20Triage', 'name': 'Needs Triage', 'color': '0052cc', 'default': False, 'description': 'Issue that has not been reviewed by a pandas team member'}]",open,False,,[],,0,2022-03-02T20:22:15Z,2022-03-04T06:55:19Z,,CONTRIBUTOR,,,,,,,,"### Pandas version checks
+
+- [X] I have checked that the issue still exists on the latest versions of the docs on `main` [here](https://pandas.pydata.org/docs/dev/)
+
+
+### Location of the documentation
+
+https://pandas.pydata.org/docs/development/contributing_environment.html#creating-a-development-environment
+
+### Documentation problem
+
+To setup a local development environment the user has to build the C extensions.
+The current description contains minimal information about how to build the C extensions.
+
+The information has already been expanded somewhat in PR #46055 ([updated docs](https://pandas.pydata.org/docs/dev/development/contributing_environment.html#creating-an-environment-using-docker)), but it would be helpful to provide more detailed information.
+
+### Suggested fix for documentation
+
+Extract the already existing information into a separate section.
+In addition, the new section should provide the user with more detailed information on the following questions:
+
+- Why do these need to be build?
+- How to build?
+- When do they need to be build or rebuild? 
+
+The existing sections [Creating an environment using Docker](https://pandas.pydata.org/docs/development/contributing_environment.html#creating-an-environment-using-docker) and [Creating an environment without Docker](https://pandas.pydata.org/docs/development/contributing_environment.html#creating-an-environment-without-docker) should then refer to the newly created section.",https://api.github.com/repos/pandas-dev/pandas/issues/46205/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46205/timeline,,,,,,,,,,,,,,,,,
+12,https://api.github.com/repos/pandas-dev/pandas/issues/46204,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46204/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46204/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46204/events,https://github.com/pandas-dev/pandas/pull/46204,1157540646,PR_kwDOAA0YD84z2Mzr,46204,"PERF: avoid copies in frame[col].fillna(val, inplace=True) GH#46149",jbrockmendel,8078968,MDQ6VXNlcjgwNzg5Njg=,https://avatars.githubusercontent.com/u/8078968?v=4,,https://api.github.com/users/jbrockmendel,https://github.com/jbrockmendel,https://api.github.com/users/jbrockmendel/followers,https://api.github.com/users/jbrockmendel/following{/other_user},https://api.github.com/users/jbrockmendel/gists{/gist_id},https://api.github.com/users/jbrockmendel/starred{/owner}{/repo},https://api.github.com/users/jbrockmendel/subscriptions,https://api.github.com/users/jbrockmendel/orgs,https://api.github.com/users/jbrockmendel/repos,https://api.github.com/users/jbrockmendel/events{/privacy},https://api.github.com/users/jbrockmendel/received_events,User,False,"[{'id': 2822342, 'node_id': 'MDU6TGFiZWwyODIyMzQy', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Missing-data', 'name': 'Missing-data', 'color': 'd7e102', 'default': False, 'description': 'np.nan, pd.NaT, pd.NA, dropna, isnull, interpolate'}]",open,False,,[],,5,2022-03-02T18:20:11Z,2022-03-03T19:36:22Z,,MEMBER,,False,https://api.github.com/repos/pandas-dev/pandas/pulls/46204,https://github.com/pandas-dev/pandas/pull/46204,https://github.com/pandas-dev/pandas/pull/46204.diff,https://github.com/pandas-dev/pandas/pull/46204.patch,,"- [x] closes #46149
+- [x] [Tests added and passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#writing-tests) if fixing a bug or adding a new feature
+- [x] All [code checks passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#pre-commit).
+- [ ] Added an entry in the latest `doc/source/whatsnew/vX.X.X.rst` file if fixing a bug or adding a new feature.
+",https://api.github.com/repos/pandas-dev/pandas/issues/46204/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46204/timeline,,,,,,,,,,,,,,,,,
+13,https://api.github.com/repos/pandas-dev/pandas/issues/46203,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46203/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46203/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46203/events,https://github.com/pandas-dev/pandas/issues/46203,1157500304,I_kwDOAA0YD85E_g2Q,46203,REF: Refactor `Grouping` class to use delegates/polymorphism,NickCrews,10820686,MDQ6VXNlcjEwODIwNjg2,https://avatars.githubusercontent.com/u/10820686?v=4,,https://api.github.com/users/NickCrews,https://github.com/NickCrews,https://api.github.com/users/NickCrews/followers,https://api.github.com/users/NickCrews/following{/other_user},https://api.github.com/users/NickCrews/gists{/gist_id},https://api.github.com/users/NickCrews/starred{/owner}{/repo},https://api.github.com/users/NickCrews/subscriptions,https://api.github.com/users/NickCrews/orgs,https://api.github.com/users/NickCrews/repos,https://api.github.com/users/NickCrews/events{/privacy},https://api.github.com/users/NickCrews/received_events,User,False,[],open,False,,[],,3,2022-03-02T17:39:53Z,2022-03-03T22:44:23Z,,CONTRIBUTOR,,,,,,,,"Hi there! Thanks for the work you're doing.
+
+I started trying to write a PR to fix https://github.com/pandas-dev/pandas/issues/36327, and that got me into the groupby code. Specifically, the `Grouping` class in core.groupby.grouper. I was thinking that this class could be ripe for a refactor.
+
+Currently, this class handles lots of different cases, for example if `self.grouping_vector` is a categorical, or a `Grouper` object, or a general array-like. Also it deals with multi-indexes. With one class handling all these cases, the methods are littered with if-elses to decide the right code path.
+
+Possible solution: Define an interface for a Grouping, and then each of these different cases implement them differently (eg a CategoricalGrouping, MultiIndexGrouping, etc) Then, instead of calling `Grouping.__init__()` to make your grouping, you create them with a factory method. I think this would greatly simplify reasoning about how a Grouping works.
+
+This seemed likely that someone has already thought of this, so I wanted to check. I haven't tried implementing it yet, so I might be missing something that makes this a bad idea. If people think this seems like a good idea then I could write a PR for it. Tagging @jbrockmendel since it looks like they have done a lot of refactoring in there already. Thank you!",https://api.github.com/repos/pandas-dev/pandas/issues/46203/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46203/timeline,,,,,,,,,,,,,,,,,
+14,https://api.github.com/repos/pandas-dev/pandas/issues/46202,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46202/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46202/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46202/events,https://github.com/pandas-dev/pandas/issues/46202,1157424124,I_kwDOAA0YD85E_OP8,46202,BUG: very slow groupby(col1)[col2].value_counts() for columns of type 'category',whypandasslow,100778886,U_kgDOBgHDhg,https://avatars.githubusercontent.com/u/100778886?v=4,,https://api.github.com/users/whypandasslow,https://github.com/whypandasslow,https://api.github.com/users/whypandasslow/followers,https://api.github.com/users/whypandasslow/following{/other_user},https://api.github.com/users/whypandasslow/gists{/gist_id},https://api.github.com/users/whypandasslow/starred{/owner}{/repo},https://api.github.com/users/whypandasslow/subscriptions,https://api.github.com/users/whypandasslow/orgs,https://api.github.com/users/whypandasslow/repos,https://api.github.com/users/whypandasslow/events{/privacy},https://api.github.com/users/whypandasslow/received_events,User,False,"[{'id': 76811, 'node_id': 'MDU6TGFiZWw3NjgxMQ==', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Bug', 'name': 'Bug', 'color': 'e10c02', 'default': False, 'description': None}, {'id': 233160, 'node_id': 'MDU6TGFiZWwyMzMxNjA=', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Groupby', 'name': 'Groupby', 'color': '729FCF', 'default': False, 'description': None}, {'id': 8935311, 'node_id': 'MDU6TGFiZWw4OTM1MzEx', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Performance', 'name': 'Performance', 'color': 'a10c02', 'default': False, 'description': 'Memory or execution speed performance'}, {'id': 57296398, 'node_id': 'MDU6TGFiZWw1NzI5NjM5OA==', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Algos', 'name': 'Algos', 'color': 'eb6420', 'default': False, 'description': 'Non-arithmetic algos: value_counts, factorize, sorting, isin, clip, shift, diff'}, {'id': 1954720290, 'node_id': 'MDU6TGFiZWwxOTU0NzIwMjkw', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Needs%20Triage', 'name': 'Needs Triage', 'color': '0052cc', 'default': False, 'description': 'Issue that has not been reviewed by a pandas team member'}]",open,False,,[],,4,2022-03-02T16:31:14Z,2022-03-03T18:22:28Z,,NONE,,,,,,,,"### Pandas version checks
+
+- [X] I have checked that this issue has not already been reported.
+
+- [X] I have confirmed this bug exists on the [latest version](https://pandas.pydata.org/docs/whatsnew/index.html) of pandas.
+
+- [X] I have confirmed this bug exists on the main branch of pandas.
+
+
+### Reproducible Example
+
+```python
+# EXAMPLE 1
+
+import numpy as np
+import pandas as pd
+import time
+
+t0 = time.time()
+col1_possible_values = ["""".join(np.random.choice(list(""ABCDEFGHIJKLMNOPRSTUVWXYZ""), 20)) for _ in range(700000)]
+col2_possible_values = ["""".join(np.random.choice(list(""ABCDEFGHIJKLMNOPRSTUVWXYZ""), 10)) for _ in range(860)]
+
+col1_values = np.random.choice(col1_possible_values, size=13000000, replace=True)
+col2_values = np.random.choice(col2_possible_values, size=13000000, replace=True)
+
+sample_df = pd.DataFrame(zip(col1_values, col2_values), columns=[""col1"", ""col2""])
+print(time.time()-t0)
+
+t0 = time.time()
+processed_df = sample_df.groupby(""col1"")[""col2""].value_counts().unstack()
+print(time.time()-t0)
+
+# EXAMPLE 2
+
+import numpy as np
+import pandas as pd
+import time
+
+t0 = time.time()
+col1_possible_values = ["""".join(np.random.choice(list(""ABCDEFGHIJKLMNOPRSTUVWXYZ""), 20)) for _ in range(700000)]
+col2_possible_values = ["""".join(np.random.choice(list(""ABCDEFGHIJKLMNOPRSTUVWXYZ""), 10)) for _ in range(860)]
+
+col1_values = np.random.choice(col1_possible_values, size=13000000, replace=True)
+col2_values = np.random.choice(col2_possible_values, size=13000000, replace=True)
+
+sample_df = pd.DataFrame(zip(col1_values, col2_values), columns=[""col1"", ""col2""])
+sample_df['col2'] = sample_df['col2'].astype('category')
+print(time.time()-t0)
+
+t0 = time.time()
+processed_df = sample_df.groupby(""col1"")[""col2""].value_counts().unstack()
+print(time.time()-t0)
+```
+
+
+### Issue Description
+
+I have 2022 Macbook Pro M1 Pro, pandas 1.4.1, numpy 1.22.2
+
+I noticed significant performance drop when trying to perform
+
+sample_df.groupby(""col1"")[""col2""].value_counts().unstack()
+
+when col2 or both col1 and col2 are of type 'category' instead of default type 'object'. Operation in EXAMPLE 1 runs around ~25 seconds on my computer (similar for 2019 Macbook Pro with Intel processor). In EXAMPLE 2 I have run the operation for more than 20 minutes and it still did not finish (on 2019 Macbook Pro with Intel processor running time is similar for EXAMPLE 1 and EXAMPLE 2).
+
+Moreover, for M1 in EXAMPLE 1, the peak memory usage is around 8-10GB while for EXAMPLE 2 it well exceeds 30GB. 
+
+
+
+### Expected Behavior
+
+on M1:
+
+EXAMPLE 1 and EXAMPLE 2 should perform roughly the same as they do on Intel processor.
+
+### Installed Versions
+
+<details>
+
+INSTALLED VERSIONS
+------------------
+commit           : 06d230151e6f18fdb8139d09abf539867a8cd481
+python           : 3.9.10.final.0
+python-bits      : 64
+OS               : Darwin
+OS-release       : 21.3.0
+Version          : Darwin Kernel Version 21.3.0: Wed Jan  5 21:37:58 PST 2022; root:xnu-8019.80.24~20/RELEASE_ARM64_T6000
+machine          : arm64
+processor        : arm
+byteorder        : little
+LC_ALL           : None
+LANG             : None
+LOCALE           : None.UTF-8
+
+pandas           : 1.4.1
+numpy            : 1.22.2
+pytz             : 2021.3
+dateutil         : 2.8.2
+pip              : 22.0.3
+setuptools       : 60.9.3
+Cython           : 0.29.28
+pytest           : None
+hypothesis       : None
+sphinx           : None
+blosc            : None
+feather          : None
+xlsxwriter       : None
+lxml.etree       : None
+html5lib         : None
+pymysql          : None
+psycopg2         : 2.9.3
+jinja2           : 3.0.3
+IPython          : 8.0.1
+pandas_datareader: None
+bs4              : None
+bottleneck       : None
+fastparquet      : None
+fsspec           : None
+gcsfs            : None
+matplotlib       : 3.5.1
+numba            : None
+numexpr          : None
+odfpy            : None
+openpyxl         : None
+pandas_gbq       : None
+pyarrow          : 7.0.0
+pyreadstat       : None
+pyxlsb           : None
+s3fs             : None
+scipy            : 1.8.0
+sqlalchemy       : None
+tables           : None
+tabulate         : None
+xarray           : None
+xlrd             : None
+xlwt             : None
+zstandard        : None
+None
+
+</details>
+",https://api.github.com/repos/pandas-dev/pandas/issues/46202/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46202/timeline,,,,,,,,,,,,,,,,,
+15,https://api.github.com/repos/pandas-dev/pandas/issues/46199,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46199/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46199/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46199/events,https://github.com/pandas-dev/pandas/pull/46199,1157383588,PR_kwDOAA0YD84z1r00,46199,Test : Pandas 1.0.5 → 1.1.0 behavior change on DataFrame.apply() where fn returns np.ndarray ,weikhor,36619387,MDQ6VXNlcjM2NjE5Mzg3,https://avatars.githubusercontent.com/u/36619387?v=4,,https://api.github.com/users/weikhor,https://github.com/weikhor,https://api.github.com/users/weikhor/followers,https://api.github.com/users/weikhor/following{/other_user},https://api.github.com/users/weikhor/gists{/gist_id},https://api.github.com/users/weikhor/starred{/owner}{/repo},https://api.github.com/users/weikhor/subscriptions,https://api.github.com/users/weikhor/orgs,https://api.github.com/users/weikhor/repos,https://api.github.com/users/weikhor/events{/privacy},https://api.github.com/users/weikhor/received_events,User,False,"[{'id': 127685, 'node_id': 'MDU6TGFiZWwxMjc2ODU=', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Testing', 'name': 'Testing', 'color': 'C4A000', 'default': False, 'description': 'pandas testing functions or related to the test suite'}, {'id': 697792067, 'node_id': 'MDU6TGFiZWw2OTc3OTIwNjc=', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Apply', 'name': 'Apply', 'color': 'fbca04', 'default': False, 'description': 'Apply, Aggregate, Transform'}]",open,False,,[],,0,2022-03-02T15:56:55Z,2022-03-04T01:16:51Z,,CONTRIBUTOR,,False,https://api.github.com/repos/pandas-dev/pandas/pulls/46199,https://github.com/pandas-dev/pandas/pull/46199,https://github.com/pandas-dev/pandas/pull/46199.diff,https://github.com/pandas-dev/pandas/pull/46199.patch,,"- [x] closes #35517 
+- [ ] [Tests added and passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#writing-tests) if fixing a bug or adding a new feature
+- [ ] All [code checks passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#pre-commit).
+- [ ] Added an entry in the latest `doc/source/whatsnew/vX.X.X.rst` file if fixing a bug or adding a new feature.
+",https://api.github.com/repos/pandas-dev/pandas/issues/46199/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46199/timeline,,https://api.github.com/repos/pandas-dev/pandas/milestones/92,https://github.com/pandas-dev/pandas/milestone/92,https://api.github.com/repos/pandas-dev/pandas/milestones/92/labels,7530006.0,MI_kwDOAA0YD84AcuYW,92.0,1.5,,"{'login': 'jreback', 'id': 953992, 'node_id': 'MDQ6VXNlcjk1Mzk5Mg==', 'avatar_url': 'https://avatars.githubusercontent.com/u/953992?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/jreback', 'html_url': 'https://github.com/jreback', 'followers_url': 'https://api.github.com/users/jreback/followers', 'following_url': 'https://api.github.com/users/jreback/following{/other_user}', 'gists_url': 'https://api.github.com/users/jreback/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/jreback/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/jreback/subscriptions', 'organizations_url': 'https://api.github.com/users/jreback/orgs', 'repos_url': 'https://api.github.com/users/jreback/repos', 'events_url': 'https://api.github.com/users/jreback/events{/privacy}', 'received_events_url': 'https://api.github.com/users/jreback/received_events', 'type': 'User', 'site_admin': False}",51.0,436.0,open,2021-12-31T21:51:13Z,2022-03-04T01:54:24Z,2022-06-30T07:00:00Z,
+16,https://api.github.com/repos/pandas-dev/pandas/issues/46198,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46198/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46198/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46198/events,https://github.com/pandas-dev/pandas/pull/46198,1157362179,PR_kwDOAA0YD84z1nRh,46198, Add benchmark for indexing with .loc for sorted/unsorted DatetimeIndex,weikhor,36619387,MDQ6VXNlcjM2NjE5Mzg3,https://avatars.githubusercontent.com/u/36619387?v=4,,https://api.github.com/users/weikhor,https://github.com/weikhor,https://api.github.com/users/weikhor/followers,https://api.github.com/users/weikhor/following{/other_user},https://api.github.com/users/weikhor/gists{/gist_id},https://api.github.com/users/weikhor/starred{/owner}{/repo},https://api.github.com/users/weikhor/subscriptions,https://api.github.com/users/weikhor/orgs,https://api.github.com/users/weikhor/repos,https://api.github.com/users/weikhor/events{/privacy},https://api.github.com/users/weikhor/received_events,User,False,"[{'id': 732775912, 'node_id': 'MDU6TGFiZWw3MzI3NzU5MTI=', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Benchmark', 'name': 'Benchmark', 'color': 'ae68cc', 'default': False, 'description': 'Performance (ASV) benchmarks'}]",open,False,,[],,1,2022-03-02T15:38:34Z,2022-03-03T20:28:35Z,,CONTRIBUTOR,,False,https://api.github.com/repos/pandas-dev/pandas/pulls/46198,https://github.com/pandas-dev/pandas/pull/46198,https://github.com/pandas-dev/pandas/pull/46198.diff,https://github.com/pandas-dev/pandas/pull/46198.patch,,"- [x] closes #38690 
+- [x] [Tests added and passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#writing-tests) if fixing a bug or adding a new feature
+- [x] All [code checks passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#pre-commit).
+- [ ] Added an entry in the latest `doc/source/whatsnew/vX.X.X.rst` file if fixing a bug or adding a new feature.
+",https://api.github.com/repos/pandas-dev/pandas/issues/46198/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46198/timeline,,https://api.github.com/repos/pandas-dev/pandas/milestones/92,https://github.com/pandas-dev/pandas/milestone/92,https://api.github.com/repos/pandas-dev/pandas/milestones/92/labels,7530006.0,MI_kwDOAA0YD84AcuYW,92.0,1.5,,"{'login': 'jreback', 'id': 953992, 'node_id': 'MDQ6VXNlcjk1Mzk5Mg==', 'avatar_url': 'https://avatars.githubusercontent.com/u/953992?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/jreback', 'html_url': 'https://github.com/jreback', 'followers_url': 'https://api.github.com/users/jreback/followers', 'following_url': 'https://api.github.com/users/jreback/following{/other_user}', 'gists_url': 'https://api.github.com/users/jreback/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/jreback/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/jreback/subscriptions', 'organizations_url': 'https://api.github.com/users/jreback/orgs', 'repos_url': 'https://api.github.com/users/jreback/repos', 'events_url': 'https://api.github.com/users/jreback/events{/privacy}', 'received_events_url': 'https://api.github.com/users/jreback/received_events', 'type': 'User', 'site_admin': False}",51.0,436.0,open,2021-12-31T21:51:13Z,2022-03-04T01:54:24Z,2022-06-30T07:00:00Z,
+17,https://api.github.com/repos/pandas-dev/pandas/issues/46197,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46197/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46197/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46197/events,https://github.com/pandas-dev/pandas/pull/46197,1156227737,PR_kwDOAA0YD84zxqcd,46197,BUG: nullable groupby result dtypes,jbrockmendel,8078968,MDQ6VXNlcjgwNzg5Njg=,https://avatars.githubusercontent.com/u/8078968?v=4,,https://api.github.com/users/jbrockmendel,https://github.com/jbrockmendel,https://api.github.com/users/jbrockmendel/followers,https://api.github.com/users/jbrockmendel/following{/other_user},https://api.github.com/users/jbrockmendel/gists{/gist_id},https://api.github.com/users/jbrockmendel/starred{/owner}{/repo},https://api.github.com/users/jbrockmendel/subscriptions,https://api.github.com/users/jbrockmendel/orgs,https://api.github.com/users/jbrockmendel/repos,https://api.github.com/users/jbrockmendel/events{/privacy},https://api.github.com/users/jbrockmendel/received_events,User,False,"[{'id': 1817503692, 'node_id': 'MDU6TGFiZWwxODE3NTAzNjky', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/NA%20-%20MaskedArrays', 'name': 'NA - MaskedArrays', 'color': '8cc645', 'default': False, 'description': 'Related to pd.NA and nullable extension arrays'}]",open,False,,[],,1,2022-03-02T02:28:59Z,2022-03-04T02:12:27Z,,MEMBER,,False,https://api.github.com/repos/pandas-dev/pandas/pulls/46197,https://github.com/pandas-dev/pandas/pull/46197,https://github.com/pandas-dev/pandas/pull/46197.diff,https://github.com/pandas-dev/pandas/pull/46197.patch,,"- [ ] closes #xxxx (Replace xxxx with the Github issue number)
+- [ ] [Tests added and passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#writing-tests) if fixing a bug or adding a new feature
+- [ ] All [code checks passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#pre-commit).
+- [ ] Added an entry in the latest `doc/source/whatsnew/vX.X.X.rst` file if fixing a bug or adding a new feature.
+
+to match the corresponding non-nullable behavior.",https://api.github.com/repos/pandas-dev/pandas/issues/46197/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46197/timeline,,https://api.github.com/repos/pandas-dev/pandas/milestones/92,https://github.com/pandas-dev/pandas/milestone/92,https://api.github.com/repos/pandas-dev/pandas/milestones/92/labels,7530006.0,MI_kwDOAA0YD84AcuYW,92.0,1.5,,"{'login': 'jreback', 'id': 953992, 'node_id': 'MDQ6VXNlcjk1Mzk5Mg==', 'avatar_url': 'https://avatars.githubusercontent.com/u/953992?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/jreback', 'html_url': 'https://github.com/jreback', 'followers_url': 'https://api.github.com/users/jreback/followers', 'following_url': 'https://api.github.com/users/jreback/following{/other_user}', 'gists_url': 'https://api.github.com/users/jreback/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/jreback/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/jreback/subscriptions', 'organizations_url': 'https://api.github.com/users/jreback/orgs', 'repos_url': 'https://api.github.com/users/jreback/repos', 'events_url': 'https://api.github.com/users/jreback/events{/privacy}', 'received_events_url': 'https://api.github.com/users/jreback/received_events', 'type': 'User', 'site_admin': False}",51.0,436.0,open,2021-12-31T21:51:13Z,2022-03-04T01:54:24Z,2022-06-30T07:00:00Z,
+18,https://api.github.com/repos/pandas-dev/pandas/issues/46195,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46195/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46195/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46195/events,https://github.com/pandas-dev/pandas/pull/46195,1155867508,PR_kwDOAA0YD84zwZAr,46195,DOC: Clarify groupby.first does not use nulls ,NumberPiOso,46936498,MDQ6VXNlcjQ2OTM2NDk4,https://avatars.githubusercontent.com/u/46936498?v=4,,https://api.github.com/users/NumberPiOso,https://github.com/NumberPiOso,https://api.github.com/users/NumberPiOso/followers,https://api.github.com/users/NumberPiOso/following{/other_user},https://api.github.com/users/NumberPiOso/gists{/gist_id},https://api.github.com/users/NumberPiOso/starred{/owner}{/repo},https://api.github.com/users/NumberPiOso/subscriptions,https://api.github.com/users/NumberPiOso/orgs,https://api.github.com/users/NumberPiOso/repos,https://api.github.com/users/NumberPiOso/events{/privacy},https://api.github.com/users/NumberPiOso/received_events,User,False,"[{'id': 134699, 'node_id': 'MDU6TGFiZWwxMzQ2OTk=', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Docs', 'name': 'Docs', 'color': '3465A4', 'default': False, 'description': None}, {'id': 233160, 'node_id': 'MDU6TGFiZWwyMzMxNjA=', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Groupby', 'name': 'Groupby', 'color': '729FCF', 'default': False, 'description': None}]",open,False,,[],,1,2022-03-01T22:08:08Z,2022-03-02T01:19:29Z,,CONTRIBUTOR,,False,https://api.github.com/repos/pandas-dev/pandas/pulls/46195,https://github.com/pandas-dev/pandas/pull/46195,https://github.com/pandas-dev/pandas/pull/46195.diff,https://github.com/pandas-dev/pandas/pull/46195.patch,,"- [X] closes  #8427
+- [X] All [code checks passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#pre-commit).
+",https://api.github.com/repos/pandas-dev/pandas/issues/46195/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46195/timeline,,,,,,,,,,,,,,,,,
+19,https://api.github.com/repos/pandas-dev/pandas/issues/46187,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46187/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46187/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46187/events,https://github.com/pandas-dev/pandas/issues/46187,1154543878,I_kwDOAA0YD85E0PEG,46187,BUG: AttributeError: 'TextFileReader' object has no attribute 'f',theinexorable,51996504,MDQ6VXNlcjUxOTk2NTA0,https://avatars.githubusercontent.com/u/51996504?v=4,,https://api.github.com/users/theinexorable,https://github.com/theinexorable,https://api.github.com/users/theinexorable/followers,https://api.github.com/users/theinexorable/following{/other_user},https://api.github.com/users/theinexorable/gists{/gist_id},https://api.github.com/users/theinexorable/starred{/owner}{/repo},https://api.github.com/users/theinexorable/subscriptions,https://api.github.com/users/theinexorable/orgs,https://api.github.com/users/theinexorable/repos,https://api.github.com/users/theinexorable/events{/privacy},https://api.github.com/users/theinexorable/received_events,User,False,"[{'id': 134699, 'node_id': 'MDU6TGFiZWwxMzQ2OTk=', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Docs', 'name': 'Docs', 'color': '3465A4', 'default': False, 'description': None}, {'id': 47229171, 'node_id': 'MDU6TGFiZWw0NzIyOTE3MQ==', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/IO%20CSV', 'name': 'IO CSV', 'color': '5319e7', 'default': False, 'description': 'read_csv, to_csv'}]",open,False,,[],,4,2022-02-28T21:01:58Z,2022-03-03T04:55:40Z,,NONE,,,,,,,,"### Pandas version checks
+
+- [X] I have checked that this issue has not already been reported.
+
+- [X] I have confirmed this bug exists on the [latest version](https://pandas.pydata.org/docs/whatsnew/index.html) of pandas.
+
+- [X] I have confirmed this bug exists on the main branch of pandas.
+
+
+### Reproducible Example
+
+```python
+import pandas as pd
+file = 'random.csv'
+chunks = pd.read_csv(file, chunksize=n)
+name = chunks.f.rsplit('.', 1)[0]
+```
+
+
+### Issue Description
+
+TextFileReader object <chunks> no more has .f attribute, containing the name of the given file.
+I can't find in the changelog of 1.4.1 this deprecation.
+
+### Expected Behavior
+
+.f or other attribute to keep the file name. Helpful to implement in a function to create multiple same-name export files.
+
+### Installed Versions
+
+<details>
+
+INSTALLED VERSIONS
+------------------
+commit           : 06d230151e6f18fdb8139d09abf539867a8cd481
+python           : 3.9.7.final.0
+python-bits      : 64
+OS               : Windows
+OS-release       : 10
+Version          : 10.0.19044
+machine          : AMD64
+processor        : AMD64 Family 23 Model 1 Stepping 1, AuthenticAMD
+byteorder        : little
+LC_ALL           : None
+LANG             : en
+LOCALE           : Bulgarian_Bulgaria.1251
+
+pandas           : 1.4.1
+numpy            : 1.20.3
+pytz             : 2021.3
+dateutil         : 2.8.2
+pip              : 21.2.4
+setuptools       : 58.0.4
+Cython           : 0.29.25
+pytest           : 6.2.5
+hypothesis       : None
+sphinx           : 4.4.0
+blosc            : None
+feather          : None
+xlsxwriter       : 3.0.2
+lxml.etree       : 4.7.1
+html5lib         : 1.1
+pymysql          : None
+psycopg2         : None
+jinja2           : 2.11.3
+IPython          : 7.31.1
+pandas_datareader: None
+bs4              : 4.10.0
+bottleneck       : 1.3.2
+fastparquet      : None
+fsspec           : 2022.01.0
+gcsfs            : None
+matplotlib       : 3.5.1
+numba            : 0.54.1
+numexpr          : 2.8.1
+odfpy            : None
+openpyxl         : 3.0.9
+pandas_gbq       : None
+pyarrow          : 4.0.1
+pyreadstat       : None
+pyxlsb           : None
+s3fs             : None
+scipy            : 1.7.3
+sqlalchemy       : 1.4.27
+tables           : 3.6.1
+tabulate         : None
+xarray           : None
+xlrd             : 2.0.1
+xlwt             : 1.3.0
+zstandard        : None
+
+</details>
+",https://api.github.com/repos/pandas-dev/pandas/issues/46187/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46187/timeline,,,,,,,,,,,,,,,,,
+20,https://api.github.com/repos/pandas-dev/pandas/issues/46185,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46185/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46185/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46185/events,https://github.com/pandas-dev/pandas/issues/46185,1154522327,I_kwDOAA0YD85E0JzX,46185,BUG: df.A raises AttributeError if column index is of dtype string,RagBlufThim,25440862,MDQ6VXNlcjI1NDQwODYy,https://avatars.githubusercontent.com/u/25440862?v=4,,https://api.github.com/users/RagBlufThim,https://github.com/RagBlufThim,https://api.github.com/users/RagBlufThim/followers,https://api.github.com/users/RagBlufThim/following{/other_user},https://api.github.com/users/RagBlufThim/gists{/gist_id},https://api.github.com/users/RagBlufThim/starred{/owner}{/repo},https://api.github.com/users/RagBlufThim/subscriptions,https://api.github.com/users/RagBlufThim/orgs,https://api.github.com/users/RagBlufThim/repos,https://api.github.com/users/RagBlufThim/events{/privacy},https://api.github.com/users/RagBlufThim/received_events,User,False,"[{'id': 76811, 'node_id': 'MDU6TGFiZWw3NjgxMQ==', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Bug', 'name': 'Bug', 'color': 'e10c02', 'default': False, 'description': None}, {'id': 1954720290, 'node_id': 'MDU6TGFiZWwxOTU0NzIwMjkw', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Needs%20Triage', 'name': 'Needs Triage', 'color': '0052cc', 'default': False, 'description': 'Issue that has not been reviewed by a pandas team member'}]",open,False,,[],,0,2022-02-28T20:32:41Z,2022-02-28T20:32:41Z,,NONE,,,,,,,,"### Pandas version checks
+
+- [X] I have checked that this issue has not already been reported.
+
+- [X] I have confirmed this bug exists on the [latest version](https://pandas.pydata.org/docs/whatsnew/index.html) of pandas.
+
+- [ ] I have confirmed this bug exists on the main branch of pandas.
+
+
+### Reproducible Example
+
+```python
+import pandas as pd
+df1 = pd.DataFrame({0:list(""Abc""), 1:list(""Xyz"")}, dtype=""string"")
+df2 = df1.set_axis(df1.iloc[0], axis=""columns"")
+df2.A  # raises AttributeError
+```
+
+
+### Issue Description
+
+`df2.A` raises `AttributeError: 'DataFrame' object has no attribute 'A'` even though df2 has a column A.
+`df2['A']` works as expected. 
+When I leave out the `dtype=""string""` of the creation of df1, it works.
+When I change the first argument of the `.set_axis` above to `df1.iloc[0].astype('object')` it works.
+So `df2.A` works if the column index is of dtype object, but not if it is of dtype string.
+
+### Expected Behavior
+
+`df2.A` works regardless of the dtype of the column index.
+The Reproducable Example works with Pandas 1.2.4, probably because there every index is of dtype object.
+(I noticed the bug after upgrading from 1.2.4 to 1.4.1, when production scripts stopped working.)
+
+### Installed Versions
+
+<details>
+
+INSTALLED VERSIONS
+------------------
+commit           : 06d230151e6f18fdb8139d09abf539867a8cd481
+python           : 3.10.2.final.0
+python-bits      : 64
+OS               : Windows
+OS-release       : 10
+Version          : 10.0.19042
+machine          : AMD64
+...
+
+pandas           : 1.4.1
+numpy            : 1.22.2
+pytz             : 2021.3
+dateutil         : 2.8.2
+pip              : 21.2.4
+setuptools       : 58.1.0
+Cython           : None
+pytest           : None
+hypothesis       : None
+sphinx           : None
+blosc            : None
+feather          : None
+xlsxwriter       : None
+lxml.etree       : None
+html5lib         : None
+pymysql          : None
+psycopg2         : None
+jinja2           : None
+IPython          : None
+pandas_datareader: None
+bs4              : None
+bottleneck       : None
+fastparquet      : None
+fsspec           : None
+gcsfs            : None
+matplotlib       : None
+numba            : None
+numexpr          : None
+odfpy            : None
+openpyxl         : 3.0.9
+pandas_gbq       : None
+pyarrow          : None
+pyreadstat       : None
+pyxlsb           : None
+s3fs             : None
+scipy            : None
+sqlalchemy       : None
+tables           : None
+tabulate         : None
+xarray           : None
+xlrd             : None
+xlwt             : None
+zstandard        : None
+
+</details>
+",https://api.github.com/repos/pandas-dev/pandas/issues/46185/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46185/timeline,,,,,,,,,,,,,,,,,
+21,https://api.github.com/repos/pandas-dev/pandas/issues/46179,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46179/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46179/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46179/events,https://github.com/pandas-dev/pandas/issues/46179,1154193534,I_kwDOAA0YD85Ey5h-,46179,BUG: Series.add(DataFrame) fails to align ,johannes-mueller,5902745,MDQ6VXNlcjU5MDI3NDU=,https://avatars.githubusercontent.com/u/5902745?v=4,,https://api.github.com/users/johannes-mueller,https://github.com/johannes-mueller,https://api.github.com/users/johannes-mueller/followers,https://api.github.com/users/johannes-mueller/following{/other_user},https://api.github.com/users/johannes-mueller/gists{/gist_id},https://api.github.com/users/johannes-mueller/starred{/owner}{/repo},https://api.github.com/users/johannes-mueller/subscriptions,https://api.github.com/users/johannes-mueller/orgs,https://api.github.com/users/johannes-mueller/repos,https://api.github.com/users/johannes-mueller/events{/privacy},https://api.github.com/users/johannes-mueller/received_events,User,False,"[{'id': 76811, 'node_id': 'MDU6TGFiZWw3NjgxMQ==', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Bug', 'name': 'Bug', 'color': 'e10c02', 'default': False, 'description': None}, {'id': 1954720290, 'node_id': 'MDU6TGFiZWwxOTU0NzIwMjkw', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Needs%20Triage', 'name': 'Needs Triage', 'color': '0052cc', 'default': False, 'description': 'Issue that has not been reviewed by a pandas team member'}]",open,False,,[],,1,2022-02-28T14:59:21Z,2022-02-28T15:03:11Z,,CONTRIBUTOR,,,,,,,,"### Pandas version checks
+
+- [X] I have checked that this issue has not already been reported.
+
+- [X] I have confirmed this bug exists on the [latest version](https://pandas.pydata.org/docs/whatsnew/index.html) of pandas.
+
+- [X] I have confirmed this bug exists on the main branch of pandas.
+
+
+### Reproducible Example
+
+```python
+import pandas as pd
+
+df = pd.DataFrame(
+    {2010: [1], 2020: [3]},
+    index=pd.MultiIndex.from_product(
+        [[""a""], [""b""]], names=[""scen"", ""mod""]
+    ),
+)
+
+s = pd.Series(
+    [10., 20., 30.],
+    index=pd.MultiIndex.from_product([[""a""], [""b""], [0, 1, 2]], names=[""scen"", ""mod"", ""id""]),
+)
+
+print(s.add(df, axis=0))
+```
+
+
+### Issue Description
+
+The addition operation fails with
+
+```
+Traceback (most recent call last):
+  File ""/home/jmu3si/tmp/addtest.py"", line 15, in <module>
+    print(s.add(df, axis=0))
+  File ""/home/jmu3si/Devel/pandas/pandas/core/ops/__init__.py"", line 197, in flex_wrapper
+    return op(self, other)
+  File ""/home/jmu3si/Devel/pandas/pandas/core/ops/common.py"", line 70, in new_method
+    return method(self, other)
+  File ""/home/jmu3si/Devel/pandas/pandas/core/arraylike.py"", line 104, in __radd__
+    return self._arith_method(other, roperator.radd)
+  File ""/home/jmu3si/Devel/pandas/pandas/core/frame.py"", line 7019, in _arith_method
+    self, other = ops.align_method_FRAME(self, other, axis, flex=True, level=None)
+  File ""/home/jmu3si/Devel/pandas/pandas/core/ops/__init__.py"", line 307, in align_method_FRAME
+    left, right = left.align(
+  File ""/home/jmu3si/Devel/pandas/pandas/core/frame.py"", line 4719, in align
+    return super().align(
+  File ""/home/jmu3si/Devel/pandas/pandas/core/generic.py"", line 8872, in align
+    return self._align_series(
+  File ""/home/jmu3si/Devel/pandas/pandas/core/generic.py"", line 8989, in _align_series
+    join_index, lidx, ridx = join_index.join(
+  File ""/home/jmu3si/Devel/pandas/pandas/core/indexes/base.py"", line 221, in join
+    join_index, lidx, ridx = meth(self, other, how=how, level=level, sort=sort)
+  File ""/home/jmu3si/Devel/pandas/pandas/core/indexes/base.py"", line 4541, in join
+    return self._join_multi(other, how=how)
+  File ""/home/jmu3si/Devel/pandas/pandas/core/indexes/base.py"", line 4662, in _join_multi
+    raise ValueError(""cannot join with no overlapping index names"")
+ValueError: cannot join with no overlapping index names
+```
+
+### Expected Behavior
+
+The `s.add(df, axis=0)` should yield the same result as `df.add(s, axis=0)` which results in
+
+```
+             2010  2020
+scen mod id            
+a    b   0   11.0  13.0
+         1   21.0  23.0
+         2   31.0  33.0
+```
+
+### Installed Versions
+
+<details>
+INSTALLED VERSIONS
+------------------
+commit           : d801a4b19dd7f3d1ad2ef984114cb7e7389d4700
+python           : 3.9.7.final.0
+python-bits      : 64
+OS               : Linux
+OS-release       : 5.4.0-100-lowlatency
+Version          : #113-Ubuntu SMP PREEMPT Thu Feb 3 19:24:13 UTC 2022
+machine          : x86_64
+processor        : x86_64
+byteorder        : little
+LC_ALL           : None
+LANG             : de_DE.UTF-8
+LOCALE           : de_DE.UTF-8
+
+pandas           : 1.5.0.dev0+443.gd801a4b19d
+numpy            : 1.21.4
+pytz             : 2021.3
+dateutil         : 2.8.2
+pip              : 21.2.4
+setuptools       : 58.0.4
+Cython           : 0.29.24
+pytest           : 6.2.5
+hypothesis       : 6.24.6
+sphinx           : None
+blosc            : None
+feather          : None
+xlsxwriter       : 3.0.2
+lxml.etree       : 4.8.0
+html5lib         : 1.1
+pymysql          : None
+psycopg2         : None
+jinja2           : 3.0.3
+IPython          : 7.29.0
+pandas_datareader: None
+bs4              : 4.10.0
+bottleneck       : None
+fastparquet      : None
+fsspec           : 2022.01.0
+gcsfs            : None
+markupsafe       : 2.0.1
+matplotlib       : 3.5.1
+numba            : 0.55.1
+numexpr          : 2.8.1
+odfpy            : None
+openpyxl         : 3.0.9
+pandas_gbq       : None
+pyarrow          : 7.0.0
+pyreadstat       : None
+pyxlsb           : None
+s3fs             : None
+scipy            : 1.8.0
+sqlalchemy       : 1.4.31
+tables           : 3.7.0
+tabulate         : None
+xarray           : 0.21.1
+xlrd             : 2.0.1
+xlwt             : 1.3.0
+zstandard        : None
+</details>
+",https://api.github.com/repos/pandas-dev/pandas/issues/46179/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46179/timeline,,,,,,,,,,,,,,,,,
+22,https://api.github.com/repos/pandas-dev/pandas/issues/46178,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46178/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46178/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46178/events,https://github.com/pandas-dev/pandas/issues/46178,1153888271,I_kwDOAA0YD85ExvAP,46178,BUG: Merge error when merge col is int64 and Int64,tritemio,4156237,MDQ6VXNlcjQxNTYyMzc=,https://avatars.githubusercontent.com/u/4156237?v=4,,https://api.github.com/users/tritemio,https://github.com/tritemio,https://api.github.com/users/tritemio/followers,https://api.github.com/users/tritemio/following{/other_user},https://api.github.com/users/tritemio/gists{/gist_id},https://api.github.com/users/tritemio/starred{/owner}{/repo},https://api.github.com/users/tritemio/subscriptions,https://api.github.com/users/tritemio/orgs,https://api.github.com/users/tritemio/repos,https://api.github.com/users/tritemio/events{/privacy},https://api.github.com/users/tritemio/received_events,User,False,"[{'id': 76811, 'node_id': 'MDU6TGFiZWw3NjgxMQ==', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Bug', 'name': 'Bug', 'color': 'e10c02', 'default': False, 'description': None}, {'id': 1954720290, 'node_id': 'MDU6TGFiZWwxOTU0NzIwMjkw', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Needs%20Triage', 'name': 'Needs Triage', 'color': '0052cc', 'default': False, 'description': 'Issue that has not been reviewed by a pandas team member'}]",open,False,,[],,0,2022-02-28T10:03:02Z,2022-02-28T10:11:45Z,,NONE,,,,,,,,"### Pandas version checks
+
+- [X] I have checked that this issue has not already been reported.
+
+- [X] I have confirmed this bug exists on the [latest version](https://pandas.pydata.org/docs/whatsnew/index.html) of pandas.
+
+- [ ] I have confirmed this bug exists on the main branch of pandas.
+
+
+### Reproducible Example
+
+```python
+import pandas as pd
+
+# First DF
+df1 = pd.DataFrame({'col1': [1,1,2,2,3,pd.NA]})
+df1['col1'] = df1['col1'].astype('Int64')
+
+# Second DF
+df2 = pd.DataFrame({'col1': [1,2,3], 'col2': list('abc')}).set_index('col1')
+
+print(df1.dtypes)
+print(df2.dtypes)
+print(df1.merge(df2, left_on='col1', right_index=True))
+```
+
+
+### Issue Description
+
+Merging two DataFrames on a column (`col1`) that is `Int64` in  the first and `int64` in the second DF,  causes the following  confusing error message:
+
+```python
+Traceback (most recent call last):
+  File ""/Users/anto/xxx/src/bugs/pandas_join.py"", line 30, in <module>
+    print(df1.merge(df2, on='col1', how='left'))
+  File ""/Users/anto/miniconda3/conda-envs/py310/lib/python3.10/site-packages/pandas/core/frame.py"", line 9339, in merge
+    return merge(
+  File ""/Users/anto/miniconda3/conda-envs/py310/lib/python3.10/site-packages/pandas/core/reshape/merge.py"", line 122, in merge
+    return op.get_result()
+  File ""/Users/anto/miniconda3/conda-envs/py310/lib/python3.10/site-packages/pandas/core/reshape/merge.py"", line 716, in get_result
+    join_index, left_indexer, right_indexer = self._get_join_info()
+  File ""/Users/anto/miniconda3/conda-envs/py310/lib/python3.10/site-packages/pandas/core/reshape/merge.py"", line 967, in _get_join_info
+    (left_indexer, right_indexer) = self._get_join_indexers()
+  File ""/Users/anto/miniconda3/conda-envs/py310/lib/python3.10/site-packages/pandas/core/reshape/merge.py"", line 941, in _get_join_indexers
+    return get_join_indexers(
+  File ""/Users/anto/miniconda3/conda-envs/py310/lib/python3.10/site-packages/pandas/core/reshape/merge.py"", line 1484, in get_join_indexers
+    zipped = zip(*mapped)
+  File ""/Users/anto/miniconda3/conda-envs/py310/lib/python3.10/site-packages/pandas/core/reshape/merge.py"", line 1481, in <genexpr>
+    _factorize_keys(left_keys[n], right_keys[n], sort=sort, how=how)
+  File ""/Users/anto/miniconda3/conda-envs/py310/lib/python3.10/site-packages/pandas/core/reshape/merge.py"", line 2164, in _factorize_keys
+    lk = ensure_int64(np.asarray(lk))
+  File ""pandas/_libs/algos_common_helper.pxi"", line 81, in pandas._libs.algos.ensure_int64
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NAType'
+```
+
+
+### Expected Behavior
+
+If the types of the ""merge columns"" are compatible, the merge should complete with no errors. Or, alternatively, the error message should warn the user of a type mismatch and of the need of casting one of the columns.
+
+For example, casting the `col1` in `df2` from `int64` to `Int64` will result in the correct merge:
+
+```python
+import pandas as pd
+
+# First DF
+df1 = pd.DataFrame({'col1': [1,1,2,2,3,pd.NA]})
+df1['col1'] = df1['col1'].astype('Int64')
+
+# Second DF
+df2 = pd.DataFrame({'col1': [1,2,3], 'col2': list('abc')}).set_index('col1')
+
+# These two lines are required for the merge to work
+df2 = df2.reset_index()
+df2['col1'] = df2['col1'].astype('Int64')
+
+
+print(df1.dtypes)
+print(df2.dtypes)
+print(df1.merge(df2, on='col1', how='left'))
+```
+
+However, this workaround looks a bit too convoluted for me.
+
+
+### Installed Versions
+
+<details>
+
+1.4.1
+
+</details>
+",https://api.github.com/repos/pandas-dev/pandas/issues/46178/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46178/timeline,,,,,,,,,,,,,,,,,
+23,https://api.github.com/repos/pandas-dev/pandas/issues/46176,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46176/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46176/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46176/events,https://github.com/pandas-dev/pandas/issues/46176,1153565414,I_kwDOAA0YD85EwgLm,46176,getsizeof  usage for memory utilization estimation is incompatible with PyPy,mach881040,100502242,U_kgDOBf2K4g,https://avatars.githubusercontent.com/u/100502242?v=4,,https://api.github.com/users/mach881040,https://github.com/mach881040,https://api.github.com/users/mach881040/followers,https://api.github.com/users/mach881040/following{/other_user},https://api.github.com/users/mach881040/gists{/gist_id},https://api.github.com/users/mach881040/starred{/owner}{/repo},https://api.github.com/users/mach881040/subscriptions,https://api.github.com/users/mach881040/orgs,https://api.github.com/users/mach881040/repos,https://api.github.com/users/mach881040/events{/privacy},https://api.github.com/users/mach881040/received_events,User,False,"[{'id': 76811, 'node_id': 'MDU6TGFiZWw3NjgxMQ==', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Bug', 'name': 'Bug', 'color': 'e10c02', 'default': False, 'description': None}, {'id': 1954720290, 'node_id': 'MDU6TGFiZWwxOTU0NzIwMjkw', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Needs%20Triage', 'name': 'Needs Triage', 'color': '0052cc', 'default': False, 'description': 'Issue that has not been reviewed by a pandas team member'}]",open,False,,[],,0,2022-02-28T03:08:49Z,2022-02-28T03:08:49Z,,NONE,,,,,,,,"### Pandas version checks
+
+- [X] I have checked that this issue has not already been reported.
+
+- [X] I have confirmed this bug exists on the [latest version](https://pandas.pydata.org/docs/whatsnew/index.html) of pandas.
+
+- [ ] I have confirmed this bug exists on the main branch of pandas.
+
+
+### Reproducible Example
+
+```python
+from sklearn.datasets import fetch_openml
+data = fetch_openml('mnist_784')
+```
+
+
+### Issue Description
+
+PyPy doesn't like this usage of getsizeof:
+
+```
+
+<!--StartFragment-->
+
+---------------------------------------------------------------------------
+--
+  | TypeError                                 Traceback (most recent call last)
+  | ~/mambaforge-pypy3/site-packages/sklearn/datasets/_openml.py in wrapper(*args, **kw)
+  | 60             try:
+  | ---> 61                 return f(*args, **kw)
+  | 62             except HTTPError:
+  |  
+  | ~/mambaforge-pypy3/site-packages/sklearn/datasets/_openml.py in _load_arff_response(url, data_home, return_type, encode_nominal, parse_arff, md5_checksum)
+  | 528
+  | --> 529         parsed_arff = parse_arff(arff)
+  | 530
+  |  
+  | ~/mambaforge-pypy3/lib_pypy/_functools.py in __call__(self, *fargs, **fkeywords)
+  | 79             fkeywords = dict(self._keywords, **fkeywords)
+  | ---> 80         return self._func(*(self._args + fargs), **fkeywords)
+  | 81
+  |  
+  | ~/mambaforge-pypy3/site-packages/sklearn/datasets/_openml.py in _convert_arff_data_dataframe(arff, columns, features_dict)
+  | 353
+  | --> 354     row_bytes = first_df.memory_usage(deep=True).sum()
+  | 355     chunksize = get_chunk_n_rows(row_bytes)
+  |  
+  | ~/mambaforge-pypy3/site-packages/pandas/core/frame.py in memory_usage(self, index, deep)
+  | 3223             result = self._constructor_sliced(
+  | -> 3224                 self.index.memory_usage(deep=deep), index=[""Index""]
+  | 3225             ).append(result)
+  |  
+  | ~/mambaforge-pypy3/site-packages/pandas/core/indexes/range.py in memory_usage(self, deep)
+  | 344         """"""
+  | --> 345         return self.nbytes
+  | 346
+  |  
+  | ~/mambaforge-pypy3/site-packages/pandas/_libs/properties.pyx in pandas._libs.properties.CachedProperty.__get__()
+  |  
+  | ~/mambaforge-pypy3/site-packages/pandas/core/indexes/range.py in nbytes(self)
+  | 316         rng = self._range
+  | --> 317         return getsizeof(rng) + sum(
+  | 318             getsizeof(getattr(rng, attr_name))
+  |  
+  | TypeError: getsizeof(...)
+  | getsizeof(object, default) -> int
+  |  
+  | Return the size of object in bytes.
+  |  
+  | sys.getsizeof(object, default) will always return default on PyPy, and
+  | raise a TypeError if default is not provided.
+  |  
+  | First note that the CPython documentation says that this function may
+  | raise a TypeError, so if you are seeing it, it means that the program
+  | you are using is not correctly handling this case.
+  |  
+  | On PyPy, though, it always raises TypeError.  Before looking for
+  | alternatives, please take a moment to read the following explanation as
+  | to why it is the case.  What you are looking for may not be possible.
+  |  
+  | A memory profiler using this function is most likely to give results
+  | inconsistent with reality on PyPy.  It would be possible to have
+  | sys.getsizeof() return a number (with enough work), but that may or
+  | may not represent how much memory the object uses.  It doesn't even
+  | make really sense to ask how much *one* object uses, in isolation
+  | with the rest of the system.  For example, instances have maps,
+  | which are often shared across many instances; in this case the maps
+  | would probably be ignored by an implementation of sys.getsizeof(),
+  | but their overhead is important in some cases if they are many
+  | instances with unique maps.  Conversely, equal strings may share
+  | their internal string data even if they are different objects---or
+  | empty containers may share parts of their internals as long as they
+  | are empty.  Even stranger, some lists create objects as you read
+  | them; if you try to estimate the size in memory of range(10**6) as
+  | the sum of all items' size, that operation will by itself create one
+  | million integer objects that never existed in the first place.
+  |  
+  |  
+  | During handling of the above exception, another exception occurred:
+  |  
+  | TypeError                                 Traceback (most recent call last)
+  | /tmp/ipykernel_18403/3646006393.py in <module>
+  | ----> 1 data = fetch_openml('mnist_784')
+  |  
+  | ~/mambaforge-pypy3/site-packages/sklearn/datasets/_openml.py in fetch_openml(name, version, data_id, data_home, target_column, cache, return_X_y, as_frame)
+  | 965         target_columns=target_columns,
+  | 966         data_columns=data_columns,
+  | --> 967         md5_checksum=data_description[""md5_checksum""],
+  | 968     )
+  | 969
+  |  
+  | ~/mambaforge-pypy3/site-packages/sklearn/datasets/_openml.py in _download_data_to_bunch(url, sparse, data_home, as_frame, features_list, data_columns, target_columns, shape, md5_checksum)
+  | 659         encode_nominal=not as_frame,
+  | 660         parse_arff=parse_arff,
+  | --> 661         md5_checksum=md5_checksum,
+  | 662     )
+  | 663     X, y, frame, nominal_attributes = postprocess(*out)
+  |  
+  | ~/mambaforge-pypy3/site-packages/sklearn/datasets/_openml.py in wrapper(*args, **kw)
+  | 67                 if os.path.exists(local_path):
+  | 68                     os.unlink(local_path)
+  | ---> 69                 return f(*args, **kw)
+  | 70
+  | 71         return wrapper
+  |  
+  | ~/mambaforge-pypy3/site-packages/sklearn/datasets/_openml.py in _load_arff_response(url, data_home, return_type, encode_nominal, parse_arff, md5_checksum)
+  | 527         )
+  | 528
+  | --> 529         parsed_arff = parse_arff(arff)
+  | 530
+  | 531         # consume remaining stream, if early exited
+  |  
+  | ~/mambaforge-pypy3/lib_pypy/_functools.py in __call__(self, *fargs, **fkeywords)
+  | 78         if self._keywords:
+  | 79             fkeywords = dict(self._keywords, **fkeywords)
+  | ---> 80         return self._func(*(self._args + fargs), **fkeywords)
+  | 81
+  | 82     @_recursive_repr()
+  |  
+  | ~/mambaforge-pypy3/site-packages/sklearn/datasets/_openml.py in _convert_arff_data_dataframe(arff, columns, features_dict)
+  | 352     first_df = pd.DataFrame([first_row], columns=arff_columns)
+  | 353
+  | --> 354     row_bytes = first_df.memory_usage(deep=True).sum()
+  | 355     chunksize = get_chunk_n_rows(row_bytes)
+  | 356
+  |  
+  | ~/mambaforge-pypy3/site-packages/pandas/core/frame.py in memory_usage(self, index, deep)
+  | 3222         if index:
+  | 3223             result = self._constructor_sliced(
+  | -> 3224                 self.index.memory_usage(deep=deep), index=[""Index""]
+  | 3225             ).append(result)
+  | 3226         return result
+  |  
+  | ~/mambaforge-pypy3/site-packages/pandas/core/indexes/range.py in memory_usage(self, deep)
+  | 343         numpy.ndarray.nbytes
+  | 344         """"""
+  | --> 345         return self.nbytes
+  | 346
+  | 347     @property
+  |  
+  | ~/mambaforge-pypy3/site-packages/pandas/_libs/properties.pyx in pandas._libs.properties.CachedProperty.__get__()
+  |  
+  | ~/mambaforge-pypy3/site-packages/pandas/core/indexes/range.py in nbytes(self)
+  | 315         """"""
+  | 316         rng = self._range
+  | --> 317         return getsizeof(rng) + sum(
+  | 318             getsizeof(getattr(rng, attr_name))
+  | 319             for attr_name in [""start"", ""stop"", ""step""]
+  |  
+  | TypeError: getsizeof(...)
+  | getsizeof(object, default) -> int
+  |  
+  | Return the size of object in bytes.
+  |  
+  | sys.getsizeof(object, default) will always return default on PyPy, and
+  | raise a TypeError if default is not provided.
+  |  
+  | First note that the CPython documentation says that this function may
+  | raise a TypeError, so if you are seeing it, it means that the program
+  | you are using is not correctly handling this case.
+  |  
+  | On PyPy, though, it always raises TypeError.  Before looking for
+  | alternatives, please take a moment to read the following explanation as
+  | to why it is the case.  What you are looking for may not be possible.
+  |  
+  | A memory profiler using this function is most likely to give results
+  | inconsistent with reality on PyPy.  It would be possible to have
+  | sys.getsizeof() return a number (with enough work), but that may or
+  | may not represent how much memory the object uses.  It doesn't even
+  | make really sense to ask how much *one* object uses, in isolation
+  | with the rest of the system.  For example, instances have maps,
+  | which are often shared across many instances; in this case the maps
+  | would probably be ignored by an implementation of sys.getsizeof(),
+  | but their overhead is important in some cases if they are many
+  | instances with unique maps.  Conversely, equal strings may share
+  | their internal string data even if they are different objects---or
+  | empty containers may share parts of their internals as long as they
+  | are empty.  Even stranger, some lists create objects as you read
+  | them; if you try to estimate the size in memory of range(10**6) as
+  | the sum of all items' size, that operation will by itself create one
+  | million integer objects that never existed in the first place.
+
+<!--EndFragment-->
+
+```
+
+### Expected Behavior
+
+Here's an example of avoiding the usage of getsizeof elsewhere in pandas:
+
+https://github.com/pandas-dev/pandas/blob/main/pandas/core/indexes/multi.py#L1266-L1267
+
+### Installed Versions
+
+<details>
+
+To replicate this bug use mambaforge-pypy
+
+</details>
+",https://api.github.com/repos/pandas-dev/pandas/issues/46176/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46176/timeline,,,,,,,,,,,,,,,,,
+24,https://api.github.com/repos/pandas-dev/pandas/issues/46173,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46173/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46173/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46173/events,https://github.com/pandas-dev/pandas/issues/46173,1153437571,I_kwDOAA0YD85EwA-D,46173,Missing keys in a selector list are matched to None-labeled entries of MultiIndex,macsakow,10297014,MDQ6VXNlcjEwMjk3MDE0,https://avatars.githubusercontent.com/u/10297014?v=4,,https://api.github.com/users/macsakow,https://github.com/macsakow,https://api.github.com/users/macsakow/followers,https://api.github.com/users/macsakow/following{/other_user},https://api.github.com/users/macsakow/gists{/gist_id},https://api.github.com/users/macsakow/starred{/owner}{/repo},https://api.github.com/users/macsakow/subscriptions,https://api.github.com/users/macsakow/orgs,https://api.github.com/users/macsakow/repos,https://api.github.com/users/macsakow/events{/privacy},https://api.github.com/users/macsakow/received_events,User,False,"[{'id': 76811, 'node_id': 'MDU6TGFiZWw3NjgxMQ==', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Bug', 'name': 'Bug', 'color': 'e10c02', 'default': False, 'description': None}, {'id': 1954720290, 'node_id': 'MDU6TGFiZWwxOTU0NzIwMjkw', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Needs%20Triage', 'name': 'Needs Triage', 'color': '0052cc', 'default': False, 'description': 'Issue that has not been reviewed by a pandas team member'}]",open,False,,[],,0,2022-02-27T23:07:07Z,2022-02-28T12:59:47Z,,NONE,,,,,,,,"### Pandas version checks
+
+- [X] I have checked that this issue has not already been reported.
+
+- [X] I have confirmed this bug exists on the [latest version](https://pandas.pydata.org/docs/whatsnew/index.html) of pandas.
+
+- [ ] I have confirmed this bug exists on the main branch of pandas.
+
+
+### Reproducible Example
+
+```python
+import pandas as pd
+df = pd.DataFrame.from_dict({
+    (""foo"",): [1, 2, 3],
+    (""bar"",): [5, 6, 7],
+    (None,): [8, 9, 0], 
+})
+df[[ (""missingKey"",) ]] # returns the NaN-labeled column [8, 9, 0] instead of raising a KeyError
+```
+
+
+### Issue Description
+
+Given a DataFrame with MultiIndex containing NaN values in its keys, then keys with missing labels on the same level as NaN values will retrieve the NaN-labeled columns if keys are passed in a list.
+
+If multiple missing labels are passed, each of them will retrieve the None column
+```python
+pd.DataFrame.from_dict({(None,): [8, 9, 0]}).loc[:, [(""foo"",), (""bar"",)]]  # returns a DF with two copies of the NaN-labeled [8, 9, 0] column 
+``` 
+
+This behaviour occurs only when selection is done via a list of keys. 
+```python
+pd.DataFrame.from_dict({(None,): [8, 9, 0]}).loc[:, (""foo"",)]  # single key - raises KeyError
+pd.DataFrame.from_dict({(None,): [8, 9, 0]}).loc[:, [(""foo"",)]]  # key in a list - returns [8,9,0]
+```
+
+The same issue occurs for multi-level MultiIndex, as long as missing labels in the selector occur only on the same level as NaN values.
+```python
+pd.DataFrame.from_dict({(None,None): [8, 9, 0]}).loc[:, [(""a"",""a"")]]  # returns [8, 9, 0]
+pd.DataFrame.from_dict({(None,None): [8, 9, 0]}).loc[:, [(""a"",""b"")]]  # returns [8, 9, 0]
+pd.DataFrame.from_dict({(None,""b""): [8, 9, 0]}).loc[:, [(""a"",""b"")]]  # returns [8, 9, 0]
+pd.DataFrame.from_dict({(None,""a""): [8, 9, 0]}).loc[:, [(""a"",""b"")]]  # KeyError, because 2nd level didn't match
+```
+
+`None` can also be replaced with any of `pd.NA`, `np.nan`, `pd.NaT` for the same effect. 
+
+An additional, more complex example, with multiple `None` in index.
+```python
+df = pd.DataFrame.from_dict({
+    (None,None): [1, 2, 3],
+    (None,""a""): [5, 6, 7],
+    (""b"",None): [8, 9, 0],
+})
+
+df[[(""foo"", ""bar"")]] # returns [1,2,3]
+df[[(""foo"", ""a"")]] # returns [5,6,7]
+df[[(""b"", ""foo"")]] # returns [8,9,0]
+df[[(""b"", ""a"")]] # raises KeyError
+```
+Interestingly enough, if `[(""a"", ""b"")]` is used to select from this DF, a KeyError *will* be raised, instead of matching it to (None, None).
+
+
+### Expected Behavior
+
+A KeyError should be raised, as it would be if the key with missing label was not wrapped in a list.
+
+### Installed Versions
+
+<details>
+
+INSTALLED VERSIONS
+------------------
+commit           : 06d230151e6f18fdb8139d09abf539867a8cd481
+python           : 3.8.10.final.0
+python-bits      : 64
+OS               : Linux
+OS-release       : 5.13.0-27-generic
+Version          : #29~20.04.1-Ubuntu SMP Fri Jan 14 00:32:30 UTC 2022
+machine          : x86_64
+processor        : x86_64
+byteorder        : little
+LC_ALL           : None
+LANG             : en_GB.UTF-8
+LOCALE           : en_GB.UTF-8
+
+pandas           : 1.4.1
+numpy            : 1.22.2
+pytz             : 2021.3
+dateutil         : 2.8.2
+pip              : 20.0.2
+setuptools       : 44.0.0
+Cython           : None
+pytest           : None
+hypothesis       : None
+sphinx           : None
+blosc            : None
+feather          : None
+xlsxwriter       : None
+lxml.etree       : 4.6.3
+html5lib         : 1.0.1
+pymysql          : None
+psycopg2         : None
+jinja2           : 2.11.3
+IPython          : 8.0.0
+pandas_datareader: None
+bs4              : None
+bottleneck       : None
+fastparquet      : None
+fsspec           : None
+gcsfs            : None
+matplotlib       : 3.4.1
+numba            : None
+numexpr          : None
+odfpy            : None
+openpyxl         : None
+pandas_gbq       : None
+pyarrow          : None
+pyreadstat       : None
+pyxlsb           : None
+s3fs             : None
+scipy            : None
+sqlalchemy       : None
+tables           : None
+tabulate         : None
+xarray           : None
+xlrd             : None
+xlwt             : None
+zstandard        : None
+
+</details>
+",https://api.github.com/repos/pandas-dev/pandas/issues/46173/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46173/timeline,,,,,,,,,,,,,,,,,
+25,https://api.github.com/repos/pandas-dev/pandas/issues/46171,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46171/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46171/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46171/events,https://github.com/pandas-dev/pandas/pull/46171,1153397978,PR_kwDOAA0YD84zoOh4,46171,TYP: remove NaTType as possible result of Timestamp and Timedelta constructor,Dr-Irv,15113894,MDQ6VXNlcjE1MTEzODk0,https://avatars.githubusercontent.com/u/15113894?v=4,,https://api.github.com/users/Dr-Irv,https://github.com/Dr-Irv,https://api.github.com/users/Dr-Irv/followers,https://api.github.com/users/Dr-Irv/following{/other_user},https://api.github.com/users/Dr-Irv/gists{/gist_id},https://api.github.com/users/Dr-Irv/starred{/owner}{/repo},https://api.github.com/users/Dr-Irv/subscriptions,https://api.github.com/users/Dr-Irv/orgs,https://api.github.com/users/Dr-Irv/repos,https://api.github.com/users/Dr-Irv/events{/privacy},https://api.github.com/users/Dr-Irv/received_events,User,False,"[{'id': 49597148, 'node_id': 'MDU6TGFiZWw0OTU5NzE0OA==', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Timedelta', 'name': 'Timedelta', 'color': '5319e7', 'default': False, 'description': 'Timedelta data type'}, {'id': 1280988427, 'node_id': 'MDU6TGFiZWwxMjgwOTg4NDI3', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Typing', 'name': 'Typing', 'color': 'ea91a4', 'default': False, 'description': 'type annotations, mypy/pyright type checking'}, {'id': 3877216987, 'node_id': 'LA_kwDOAA0YD87nGaLb', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Timestamp', 'name': 'Timestamp', 'color': '5DE3E8', 'default': False, 'description': 'Cod related to pd.Timestamp'}]",open,False,,[],,12,2022-02-27T21:00:33Z,2022-03-03T18:36:12Z,,CONTRIBUTOR,,False,https://api.github.com/repos/pandas-dev/pandas/pulls/46171,https://github.com/pandas-dev/pandas/pull/46171,https://github.com/pandas-dev/pandas/pull/46171.diff,https://github.com/pandas-dev/pandas/pull/46171.patch,,"While working on the Microsoft type stubs, I discovered this.  With the current code, if you run `pyright` on the following with default settings for basic type checking (not using what we have in `pyproject.toml`):
+```python
+import pandas as pd
+print(""version "", pd.__version__)
+ts:pd.Timestamp =  pd.Timestamp(""2022-02-27"")
+print(ts)
+```
+you get this:
+```
+c:\Code\pandas_dev\pandas\tstest.py
+  c:\Code\pandas_dev\pandas\tstest.py:3:20 - error: Expression of type ""Timestamp | NaTType"" cannot be assigned to declared type ""Timestamp""
+    Type ""Timestamp | NaTType"" cannot be assigned to type ""Timestamp""
+      ""NaTType"" is incompatible with ""Timestamp"" (reportGeneralTypeIssues)
+```
+`mypy` doesn't pick this up.  The real issue here is that you generally expect a `Timestamp` constructor to return a `Timestamp`, so by returning the `Union`, we are then forcing end users to `cast` the result of the constructor, which is pretty inconvenient.
+
+So even though the constructor _could_ return a `NaTType`, we shouldn't force users to code for that due to static type checking.
+
+This PR just takes out the `NaTType` as a return type for the constructors.
+",https://api.github.com/repos/pandas-dev/pandas/issues/46171/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46171/timeline,,,,,,,,,,,,,,,,,
+26,https://api.github.com/repos/pandas-dev/pandas/issues/46167,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46167/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46167/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46167/events,https://github.com/pandas-dev/pandas/pull/46167,1153244393,PR_kwDOAA0YD84znvRb,46167,Bug fix - rename dataframe reset index,weikhor,36619387,MDQ6VXNlcjM2NjE5Mzg3,https://avatars.githubusercontent.com/u/36619387?v=4,,https://api.github.com/users/weikhor,https://github.com/weikhor,https://api.github.com/users/weikhor/followers,https://api.github.com/users/weikhor/following{/other_user},https://api.github.com/users/weikhor/gists{/gist_id},https://api.github.com/users/weikhor/starred{/owner}{/repo},https://api.github.com/users/weikhor/subscriptions,https://api.github.com/users/weikhor/orgs,https://api.github.com/users/weikhor/repos,https://api.github.com/users/weikhor/events{/privacy},https://api.github.com/users/weikhor/received_events,User,False,[],open,False,,[],,2,2022-02-27T13:06:18Z,2022-03-03T16:27:36Z,,CONTRIBUTOR,,False,https://api.github.com/repos/pandas-dev/pandas/pulls/46167,https://github.com/pandas-dev/pandas/pull/46167,https://github.com/pandas-dev/pandas/pull/46167.diff,https://github.com/pandas-dev/pandas/pull/46167.patch,,"- [x] closes #6878
+- [ ] [Tests added and passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#writing-tests) if fixing a bug or adding a new feature
+- [ ] All [code checks passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#pre-commit).
+- [ ] Added an entry in the latest `doc/source/whatsnew/vX.X.X.rst` file if fixing a bug or adding a new feature.
+",https://api.github.com/repos/pandas-dev/pandas/issues/46167/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46167/timeline,,,,,,,,,,,,,,,,,
+27,https://api.github.com/repos/pandas-dev/pandas/issues/46166,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46166/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46166/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46166/events,https://github.com/pandas-dev/pandas/pull/46166,1152939467,PR_kwDOAA0YD84zmo39,46166,Enable server side cursors,J0,8011761,MDQ6VXNlcjgwMTE3NjE=,https://avatars.githubusercontent.com/u/8011761?v=4,,https://api.github.com/users/J0,https://github.com/J0,https://api.github.com/users/J0/followers,https://api.github.com/users/J0/following{/other_user},https://api.github.com/users/J0/gists{/gist_id},https://api.github.com/users/J0/starred{/owner}{/repo},https://api.github.com/users/J0/subscriptions,https://api.github.com/users/J0/orgs,https://api.github.com/users/J0/repos,https://api.github.com/users/J0/events{/privacy},https://api.github.com/users/J0/received_events,User,False,"[{'id': 47232590, 'node_id': 'MDU6TGFiZWw0NzIzMjU5MA==', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/IO%20SQL', 'name': 'IO SQL', 'color': '5319e7', 'default': False, 'description': 'to_sql, read_sql, read_sql_query'}]",open,False,,[],,0,2022-02-27T06:48:36Z,2022-03-01T02:36:35Z,,NONE,,False,https://api.github.com/repos/pandas-dev/pandas/pulls/46166,https://github.com/pandas-dev/pandas/pull/46166,https://github.com/pandas-dev/pandas/pull/46166.diff,https://github.com/pandas-dev/pandas/pull/46166.patch,,"The old PR went stale and I ended up busy for a year so had to re-open in a new branch. Hoping to finally push this through
+
+This pull request attempts to fix #35689.  I read an article by @itamarst and decided to look further into the codebase. After noticing that the fix semed to be simple I decided file a PR. The fix is naive and I'm not sure the true solution is as simple as I imagine it to be. There are probably many things I'm missing as I've not read the codebase in detail so do let me know what else needs to be addressed.
+
+- [x] closes #35689
+- [x] tests added / passed
+- [x] Ensure all linting tests pass, see [here](https://pandas.pydata.org/pandas-docs/dev/development/contributing.html#code-standards) for how to run them
+- [x] whatsnew entry(N.A.)",https://api.github.com/repos/pandas-dev/pandas/issues/46166/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46166/timeline,,,,,,,,,,,,,,,,,
+28,https://api.github.com/repos/pandas-dev/pandas/issues/46164,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46164/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46164/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46164/events,https://github.com/pandas-dev/pandas/issues/46164,1152647346,I_kwDOAA0YD85EtACy,46164,BUG: Index.equals different behavior for EA vs non-EA types,lukemanley,8519523,MDQ6VXNlcjg1MTk1MjM=,https://avatars.githubusercontent.com/u/8519523?v=4,,https://api.github.com/users/lukemanley,https://github.com/lukemanley,https://api.github.com/users/lukemanley/followers,https://api.github.com/users/lukemanley/following{/other_user},https://api.github.com/users/lukemanley/gists{/gist_id},https://api.github.com/users/lukemanley/starred{/owner}{/repo},https://api.github.com/users/lukemanley/subscriptions,https://api.github.com/users/lukemanley/orgs,https://api.github.com/users/lukemanley/repos,https://api.github.com/users/lukemanley/events{/privacy},https://api.github.com/users/lukemanley/received_events,User,False,"[{'id': 76811, 'node_id': 'MDU6TGFiZWw3NjgxMQ==', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Bug', 'name': 'Bug', 'color': 'e10c02', 'default': False, 'description': None}, {'id': 849023693, 'node_id': 'MDU6TGFiZWw4NDkwMjM2OTM=', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/ExtensionArray', 'name': 'ExtensionArray', 'color': '6138b5', 'default': False, 'description': 'Extending pandas with custom dtypes or arrays.'}, {'id': 1218227310, 'node_id': 'MDU6TGFiZWwxMjE4MjI3MzEw', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Index', 'name': 'Index', 'color': 'e99695', 'default': False, 'description': 'Related to the Index class or subclasses'}, {'id': 1954720290, 'node_id': 'MDU6TGFiZWwxOTU0NzIwMjkw', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Needs%20Triage', 'name': 'Needs Triage', 'color': '0052cc', 'default': False, 'description': 'Issue that has not been reviewed by a pandas team member'}]",open,False,,[],,0,2022-02-27T02:12:17Z,2022-02-27T02:18:29Z,,CONTRIBUTOR,,,,,,,,"### Pandas version checks
+
+- [X] I have checked that this issue has not already been reported.
+
+- [X] I have confirmed this bug exists on the [latest version](https://pandas.pydata.org/docs/whatsnew/index.html) of pandas.
+
+- [X] I have confirmed this bug exists on the main branch of pandas.
+
+
+### Reproducible Example
+
+```python
+import pandas as pd
+
+f32 = pd.Index([1,2,3], dtype='float32')
+f64 = pd.Index([1,2,3], dtype='float64')
+F32 = pd.Index([1,2,3], dtype='Float32')
+F64 = pd.Index([1,2,3], dtype='Float64')
+
+>>> f32.equals(f64)
+True
+
+>>> F32.equals(F64)
+False
+```
+
+
+### Issue Description
+
+The docs for `Index.equals` state that the dtype is not part of the equality test between indexes. The last example in the docs shows indexes with different dtypes being considered equal.  
+
+https://pandas.pydata.org/docs/reference/api/pandas.Index.equals.html
+
+However, in the case of EA types the behavior is different and dtype does seem to be part of the equality check. 
+
+### Expected Behavior
+
+I'm not sure whether the different behavior between EA and non-EA types is actually a bug. Maybe it is expected in which case it should be mentioned in the docs?
+
+### Installed Versions
+
+<details>
+
+INSTALLED VERSIONS
+------------------
+commit           : 90d32204ced71ea9f93fee3e271a6081d25a73c8
+python           : 3.8.12.final.0
+python-bits      : 64
+OS               : Linux
+OS-release       : 5.10.16.3-microsoft-standard-WSL2
+Version          : #1 SMP Fri Apr 2 22:23:49 UTC 2021
+machine          : x86_64
+processor        : x86_64
+byteorder        : little
+LC_ALL           : None
+LANG             : C.UTF-8
+LOCALE           : en_US.UTF-8
+
+pandas           : 1.5.0.dev0+449.g90d32204ce
+numpy            : 1.21.5
+pytz             : 2021.3
+dateutil         : 2.8.2
+pip              : 21.3.1
+setuptools       : 60.5.0
+Cython           : 0.29.26
+pytest           : 6.2.5
+hypothesis       : 6.36.0
+sphinx           : 4.4.0
+blosc            : None
+feather          : None
+xlsxwriter       : 3.0.2
+lxml.etree       : 4.7.1
+html5lib         : 1.1
+pymysql          : None
+psycopg2         : None
+jinja2           : 3.0.3
+IPython          : 8.0.1
+pandas_datareader: None
+bs4              : 4.10.0
+bottleneck       : 1.3.2
+fastparquet      : 0.7.2
+fsspec           : 2021.11.0
+gcsfs            : 2021.11.0
+markupsafe       : 2.0.1
+matplotlib       : 3.5.1
+numba            : 0.55.0
+numexpr          : 2.8.0
+odfpy            : None
+openpyxl         : 3.0.9
+pandas_gbq       : None
+pyarrow          : 6.0.1
+pyreadstat       : 1.1.4
+pyxlsb           : None
+s3fs             : 2021.11.0
+scipy            : 1.7.3
+sqlalchemy       : 1.4.31
+tables           : 3.6.1
+tabulate         : 0.8.9
+xarray           : 0.18.2
+xlrd             : 2.0.1
+xlwt             : 1.3.0
+zstandard        : None
+
+</details>
+",https://api.github.com/repos/pandas-dev/pandas/issues/46164/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46164/timeline,,,,,,,,,,,,,,,,,
+29,https://api.github.com/repos/pandas-dev/pandas/issues/46162,https://api.github.com/repos/pandas-dev/pandas,https://api.github.com/repos/pandas-dev/pandas/issues/46162/labels{/name},https://api.github.com/repos/pandas-dev/pandas/issues/46162/comments,https://api.github.com/repos/pandas-dev/pandas/issues/46162/events,https://github.com/pandas-dev/pandas/pull/46162,1151916356,PR_kwDOAA0YD84zi3lJ,46162,Bug fix - GroupBy.describe produces inconsistent results for empty datasets,weikhor,36619387,MDQ6VXNlcjM2NjE5Mzg3,https://avatars.githubusercontent.com/u/36619387?v=4,,https://api.github.com/users/weikhor,https://github.com/weikhor,https://api.github.com/users/weikhor/followers,https://api.github.com/users/weikhor/following{/other_user},https://api.github.com/users/weikhor/gists{/gist_id},https://api.github.com/users/weikhor/starred{/owner}{/repo},https://api.github.com/users/weikhor/subscriptions,https://api.github.com/users/weikhor/orgs,https://api.github.com/users/weikhor/repos,https://api.github.com/users/weikhor/events{/privacy},https://api.github.com/users/weikhor/received_events,User,False,"[{'id': 233160, 'node_id': 'MDU6TGFiZWwyMzMxNjA=', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Groupby', 'name': 'Groupby', 'color': '729FCF', 'default': False, 'description': None}, {'id': 13098779, 'node_id': 'MDU6TGFiZWwxMzA5ODc3OQ==', 'url': 'https://api.github.com/repos/pandas-dev/pandas/labels/Reshaping', 'name': 'Reshaping', 'color': '02d7e1', 'default': False, 'description': 'Concat, Merge/Join, Stack/Unstack, Explode'}]",open,False,,[],,0,2022-02-26T15:55:59Z,2022-03-01T14:29:20Z,,CONTRIBUTOR,,False,https://api.github.com/repos/pandas-dev/pandas/pulls/46162,https://github.com/pandas-dev/pandas/pull/46162,https://github.com/pandas-dev/pandas/pull/46162.diff,https://github.com/pandas-dev/pandas/pull/46162.patch,,"- [x] closes #41575
+- [x] [Tests added and passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#writing-tests) if fixing a bug or adding a new feature
+- [x] All [code checks passed](https://pandas.pydata.org/pandas-docs/dev/development/contributing_codebase.html#pre-commit).
+- [x] Added an entry in the latest `doc/source/whatsnew/vX.X.X.rst` file if fixing a bug or adding a new feature.
+",https://api.github.com/repos/pandas-dev/pandas/issues/46162/reactions,0,0,0,0,0,0,0,0,0,https://api.github.com/repos/pandas-dev/pandas/issues/46162/timeline,,,,,,,,,,,,,,,,,

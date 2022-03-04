@@ -1,0 +1,11 @@
+2022-01-22 10:45:52,498 test.py log_test INFO Hi, this is my info log!
+2022-01-22 10:46:27,802 test.py log_test INFO Hi, this is my info log!
+2022-01-22 10:48:22,350 test.py log_test INFO Hi, this is my info log!
+2022-01-22 13:17:49,243 test.py log_test_object ERROR Logging using object!
+2022-01-22 13:22:59,536 test.py log_test_object WARNING Logging using object!
+2022-01-22 13:26:44,035 test.py log_test_object INFO Logging using object!
+2022-01-22 13:28:15,046 test.py log_test_object ERROR Logging using object!
+2022-01-22 13:48:21,587 test.py log_test_object INFO Logging info using object!
+2022-01-22 13:49:40,838 test.py log_test_object INFO Logging info using object!
+2022-01-22 13:50:18,103 test.py log_test_object INFO Logging info using object!
+2022-01-22 13:50:32,570 test.py log_test_object INFO Logging info using object!

@@ -1,0 +1,4 @@
+name: test_env
+channels:
+  - defaults
+prefix: C:\Users\shreyas.banagar\AppData\Local\Continuum\anaconda3\envs\test_env\envs\test_env

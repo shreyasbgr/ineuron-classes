@@ -1,0 +1,2 @@
+2022-01-22 13:55:14,204 test.py log_test_object INFO Logging info using object!
+2022-01-22 13:55:14,204 test.py log_test_object WARNING Logging warning using object
