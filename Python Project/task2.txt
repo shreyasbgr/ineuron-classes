@@ -1,0 +1,2 @@
+store images in mongodb
+use classes & objects in image scrapper code

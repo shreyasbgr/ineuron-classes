@@ -1,0 +1,5 @@
+Interval data
+Ratio data
+
+Besus correction
+Dedree of freedom (n-1 for sample mean) 
